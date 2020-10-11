@@ -361,6 +361,17 @@ body.body_blocked_scroll {
 	box-sizing: border-box
 }
 
+.MobileFooter__status .header {
+	font-size: 14px;
+	line-height: 18px
+}
+
+.MobileFooter__status .description {
+	font-size: 12px;
+	line-height: 16px;
+	color: #6d7885
+}
+
 .Tool {
 	display: inline-block;
 	width: 56px;
@@ -2792,5 +2803,60 @@ body {
 	-webkit-tap-highlight-color: transparent
 }
 
+.ToolNotify {
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .08), 0 8px 24px rgba(0, 0, 0, .16);
+	border-radius: 6px;
+	top: 6px;
+	left: 7px;
+	z-index: 1000;
+	padding: 16px
+}
+
+.ToolNotify .Tool {
+	width: 40px;
+	height: 40px
+}
+
+.ToolNotify__hr {
+	margin: 16px 0 11px;
+	background: #e7e8ec;
+	height: 1px
+}
+
+.ToolNotify__top {
+	display: flex;
+	align-items: center
+}
+
+.ToolNotify__top .left {
+	padding-right: 12px
+}
+
+.ToolNotify__top .header {
+	font-size: 14px;
+	line-height: 18px
+}
+
+.ToolNotify__top .description {
+	font-size: 13px;
+	line-height: 15px;
+	color: #818c99
+}
+
+.ToolNotify__footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between
+}
+
+.ToolNotify__red {
+	padding-right: 12px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #e64646
+}
+
 /*# sourceMappingURL=main.0.chunk.css.map */
-/* 0f029007 */
+/* d89365f0 */

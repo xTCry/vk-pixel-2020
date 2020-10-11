@@ -3,16 +3,16 @@
 		108: function(e, t, n) {
 			"use strict";
 			n.d(t, "a", (function() {
-				return h
+				return m
 			})), n.d(t, "c", (function() {
 				return w
 			}));
 			var a = n(13),
-				r = n(212),
+				r = n(213),
 				o = n(87),
 				i = n(37),
 				c = n(56),
-				s = n(161);
+				s = n(162);
 
 			function l(e, t) {
 				var n = Object.keys(e);
@@ -39,8 +39,8 @@
 			var d = "LocationModule.SET_LOCATION_MODULE",
 				_ = "LocationModule.PUSH_VIEW_HISTORY",
 				p = "LocationModule.POP_VIEW_HISTORY",
-				h = "PUSH",
-				m = "POP",
+				m = "PUSH",
+				h = "POP",
 				f = "REPLACE";
 			var v = {
 				viewHistory: function() {
@@ -75,10 +75,10 @@
 					if (e.structure instanceof c.a) {
 						var r = a().LocationModule.currentViewId;
 						switch (t) {
-							case h:
+							case m:
 								n(g(e.getViewId(), e.getPanelId()));
 								break;
-							case m:
+							case h:
 								r && n(O(r));
 								break;
 							case f:
@@ -138,7 +138,7 @@
 				}
 			}
 		},
-		130: function(e, t, n) {
+		129: function(e, t, n) {
 			"use strict";
 
 			function a() {
@@ -154,31 +154,31 @@
 						attention: "Внимание!",
 						download_canvas: "Скачать холст",
 						add_to_community: "Добавить в сообщество",
-						install_game_in_community: "Вы можете добавить приложение \xabPixel Battle\xbb в свое сообщество",
+						install_game_in_community: "Добавьте мини-приложение Pixel Battle в своё сообщество",
 						thanks_for_game: "Благодарим за участие!",
 						game_over: "Отгремели щелчки водружённых пикселей, битва завершена.",
 						zoom: "Масштаб",
-						dot: "Точка",
+						dot: "Пиксель",
 						online: "онлайн: {{x}}",
 						unlock: "Разблокировать",
 						cover_updating_locked: "Автообновление обложек заблокировано",
 						cover_updating_percent: " Выполняется обновление обложек {{percent}}%",
 						you_admin: "Вы администратор, у вас бесконечные пиксели",
 						rollback_covers: "Откатить обложки",
-						select_cover_help: "Выберите обложку на которую надо все откатить, кликни по обложжке чтобы увеличить",
+						select_cover_help: "Выберите нужную обложку. Чтобы увеличить изображение, кликните на него.",
 						wait_with_dots: "Подождите...",
 						rollback: "Откатить",
 						reconnecting: "Переподключение...",
 						wait_for: "Ждем еще {{m}}:{{s}}",
 						cancel: "Отмена",
-						put_point: "Поставить точку",
+						put_point: "Закрасить пиксель",
 						continue: "Продолжить",
 						pixel_battle: "PIXEL BATTLE",
 						description: "Приготовьтесь к\xa0самой грандиозной битве за\xa0пиксели в\xa0истории! Она будет особенной, потому что\xa0состоится в\xa0последний раз: \nили\xa0вы\xa0выйдете из\xa0игры героем, или\xa0будете преданы забвению. \n\nСобирайте команду и\xa0воплощайте свои творческие идеи, защищайте территорию от\xa0соперников и\xa0ищите \nсюрпризы на\xa0цифровом полотне.\n\nВперёд, к\xa0победе!",
 						groups: "Сообщества",
 						friends: "Друзья",
 						all: "Все",
-						tools: "Всякие штуки",
+						tools: "Бустеры",
 						pixels: "Пиксели",
 						add_to_group: "Добавить в сообщество",
 						auto_update_cover: "Автообновление обложки",
@@ -210,32 +210,32 @@
 						it_is_freeze_description: "Выберите область, которую хотите заморозить",
 						it_is_singlePixel: "Обычный пиксель",
 						it_is_singlePixel_description: "Его можно ставить раз в 2 минуты или получить за донат",
-						it_is_dropped: "Штуки исчезли",
-						it_is_dropped_description: "Вы не использовали бонусные предметы и они пропали",
+						it_is_dropped: "Бустеры исчезли",
+						it_is_dropped_description: "Вы не применили бустер/бустеры в течение полутора часов, и он/они пропали",
 						top: "Топ",
 						top_not_ready: "Топ скоро появится",
 						free: "Свободно",
-						dot_will_alive_after: "Точка будет\nдоступна через",
-						confirm_bomb: "Жахнуть тут",
+						dot_will_alive_after: "Пиксель будет\nдоступен через",
+						confirm_bomb: "Жахнуть тут бомбу",
 						confirm_freeze: "Заморозить",
 						groups_x: "Топ",
-						no_fiends: "Тут никого нет",
+						no_fiends: "Сейчас никого из ваших друзей нет на поле боя",
 						top_menu_item_group: "Группы",
 						top_menu_item_user: "Друзья",
 						top_menu_item_all: "Все пользователи",
-						friend_load_error: "Ошибка загрузки друзей: {{text}}",
-						retry: "Попробовать еще",
+						friend_load_error: "Не удалось загрузить список друзей: {{text}}",
+						retry: "Повторить",
 						no_fiends_in_game: "Ваших друзей нет на поле",
 						invite: "Позвать",
 						duplicate_connect: "Вы подключились с другого устройства",
 						reload: "Перезагрузить",
 						user_bombed_f: " взорвала бомбу",
 						user_bombed_m: " взорвал бомбу",
-						install_in_my_group: "Установить в свое сообщество",
+						install_in_my_group: "Установить в своё сообщество",
 						play: "Играть",
-						user_overdraw_f: " закрасила вашу точку",
-						user_overdraw_m: " закрасил вашу точку",
-						this_dot_frozen: "Эта точка заморожена",
+						user_overdraw_f: " закрасила ваш пиксель",
+						user_overdraw_m: " закрасил ваш пиксель",
+						this_dot_frozen: "Этот пиксель заморожен",
 						x_pixel_for_y_sex: "{{x}} пикселей за {{y}} сек",
 						this_is_link_for_gift: "С помощью этой ссылки можно получить подарок",
 						send: "Отправить",
@@ -253,11 +253,12 @@
 						do_add_chat: "Добавьте беседу",
 						edit: "Редактировать",
 						deadline: "Pixel Battle завершилась!",
-						this_same_color: "Точка уже покрашена в этот цвет",
+						this_same_color: "Пиксель уже покрашен в этот цвет",
 						network: "Ошибка подключения к серверу",
 						user_reject: "Вы запретили доступ к друзьям",
-						cursor_title: "Координаты, нажмите чтобы поделиться ссылкой",
-						you_offline: "Похоже, что вы не в сети"
+						cursor_title: "Координаты пикселя. Нажмите, чтобы поделиться.",
+						you_offline: "Похоже, что вы не в сети",
+						tool_timeout: "Можно применить в течение {{h}} ч {{m}} мин"
 					}
 				}
 			}
@@ -265,7 +266,79 @@
 				return a
 			}))
 		},
-		136: function(e, t, n) {
+		135: function(e, t, n) {
+			"use strict";
+			n.d(t, "a", (function() {
+				return o
+			}));
+			var a = n(7),
+				r = n(8),
+				o = function() {
+					function e() {
+						Object(a.a)(this, e)
+					}
+					return Object(r.a)(e, null, [{
+						key: "init",
+						value: function() {
+							var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+								t = e.counterId,
+								n = e.pageTitle,
+								a = void 0 === n ? "main" : n,
+								r = e.pagePath,
+								o = void 0 === r ? "/" : r,
+								i = e.clientId;
+							this.__initGA({
+								counterId: t,
+								pageTitle: a,
+								pagePath: o,
+								clientId: i
+							})
+						}
+					}, {
+						key: "__initGA",
+						value: function() {
+							var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+								n = t.counterId,
+								a = t.pageTitle,
+								r = void 0 === a ? "main" : a,
+								o = t.pagePath,
+								i = void 0 === o ? "/" : o,
+								c = t.clientId;
+							"gtag" in window && (e.COUNTER = n, e.CLIENT_ID = c, window.gtag("config", n, {
+								page_title: r,
+								page_path: i,
+								client_id: c,
+								clientId: c,
+								storage: "none",
+								cookie_expires: 0,
+								cookie_update: !1,
+								client_storage: "none"
+							}))
+						}
+					}, {
+						key: "sendGAPageView",
+						value: function() {
+							var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
+							e.COUNTER && "gtag" in window && window.gtag("config", e.COUNTER, {
+								page_title: t,
+								page_path: t,
+								client_id: e.CLIENT_ID
+							})
+						}
+					}, {
+						key: "__sendGAEvent",
+						value: function(t, n) {
+							var a = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "";
+							e.COUNTER && "gtag" in window && window.gtag("event", n, {
+								event_category: t,
+								event_label: a
+							})
+						}
+					}]), e
+				}();
+			o.COUNTER = "", o.CLIENT_ID = ""
+		},
+		137: function(e, t, n) {
 			"use strict";
 			n.d(t, "a", (function() {
 				return r
@@ -276,7 +349,7 @@
 					Object(a.a)(this, e), this.isPopup = t
 				}
 		},
-		137: function(module, __webpack_exports__, __webpack_require__) {
+		138: function(module, __webpack_exports__, __webpack_require__) {
 			"use strict";
 			__webpack_require__.d(__webpack_exports__, "a", (function() {
 				return UpdateChannel
@@ -294,7 +367,7 @@
 				_store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(45),
 				_modules_FatalErrorModule__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(67),
 				_modules_EventList__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(47),
-				_happysanta_vk_apps_sdk__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(15),
+				_happysanta_vk_apps_sdk__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(14),
 				_happysanta_vk_apps_sdk__WEBPACK_IMPORTED_MODULE_12___default = __webpack_require__.n(_happysanta_vk_apps_sdk__WEBPACK_IMPORTED_MODULE_12__),
 				_Backend__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(50),
 				_constants__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(6),
@@ -385,12 +458,12 @@
 									d = u.x,
 									_ = u.y,
 									p = u.color,
-									h = u.flag;
-								e.onNewPixel(d, _, p, s, l, h)
+									m = u.flag;
+								e.onNewPixel(d, _, p, s, l, m)
 							}
 							if (e.afterPixelPackProcessed(), e.toRead.length) {
-								var m = e.toRead.shift();
-								t.readAsArrayBuffer(m)
+								var h = e.toRead.shift();
+								t.readAsArrayBuffer(h)
 							} else t.bisy = !1
 						}, t.onerror = function() {
 							t.bisy = !1
@@ -476,7 +549,7 @@
 									var n = Object(_Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__.a)(t, 2),
 										a = n[0],
 										r = n[1],
-										o = Object(_helpers__WEBPACK_IMPORTED_MODULE_5__.x)(a),
+										o = Object(_helpers__WEBPACK_IMPORTED_MODULE_5__.y)(a),
 										i = o.x,
 										c = o.y;
 									_Pixel__WEBPACK_IMPORTED_MODULE_7__.a.createFreeze(i, c, {}).forEach((function(t) {
@@ -728,17 +801,17 @@
 							var c = new Image,
 								s = function() {
 									var i = Object(_Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__.a)(_Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark((function i() {
-										var s, l, u, d, _, p, h, m, f, v, E, b, g;
+										var s, l, u, d, _, p, m, h, f, v, E, b, g;
 										return _Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap((function(i) {
 											for (;;) switch (i.prev = i.next) {
 												case 0:
-													for (console.log("Loaded", [c.width, c.height]), (s = document.createElement("canvas")).width = c.width, s.height = c.height, (l = s.getContext("2d")).drawImage(c, 0, 0), u = Object(_helpers__WEBPACK_IMPORTED_MODULE_5__.d)(), d = c.width * c.height, _ = 0, p = 0, h = [], m = 0; m < d; m++) h.push(m);
-													r && o(h), f = [], console.log("Start sendPixel"), v = Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.h)(l, 0, 0, c.width, c.height), E = Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.h)(e.context, 0, 0, _constants__WEBPACK_IMPORTED_MODULE_14__.b, _constants__WEBPACK_IMPORTED_MODULE_14__.a), b = _Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark((function r(o) {
-														var i, s, l, m, b, g, O, w;
+													for (console.log("Loaded", [c.width, c.height]), (s = document.createElement("canvas")).width = c.width, s.height = c.height, (l = s.getContext("2d")).drawImage(c, 0, 0), u = Object(_helpers__WEBPACK_IMPORTED_MODULE_5__.d)(), d = c.width * c.height, _ = 0, p = 0, m = [], h = 0; h < d; h++) m.push(h);
+													r && o(m), f = [], console.log("Start sendPixel"), v = Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.h)(l, 0, 0, c.width, c.height), E = Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.h)(e.context, 0, 0, _constants__WEBPACK_IMPORTED_MODULE_14__.b, _constants__WEBPACK_IMPORTED_MODULE_14__.a), b = _Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark((function r(o) {
+														var i, s, l, h, b, g, O, w;
 														return _Users_i_nedzvetskiy_projects_pixel_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap((function(r) {
 															for (;;) switch (r.prev = r.next) {
 																case 0:
-																	if (i = h[o], s = i % c.width, l = Math.floor(i / c.width), m = p++, _ !== Math.round(m / d * 100 / 10) && (_ = Math.round(m / d * 100 / 10), console.log("Process:", _)), b = Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.j)(Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.i)(v, s, l, c.width)), g = u.reduce((function(e, t) {
+																	if (i = m[o], s = i % c.width, l = Math.floor(i / c.width), h = p++, _ !== Math.round(h / d * 100 / 10) && (_ = Math.round(h / d * 100 / 10), console.log("Process:", _)), b = Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.j)(Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.i)(v, s, l, c.width)), g = u.reduce((function(e, t) {
 																			var n = Math.abs(b - Object(_modules_Game__WEBPACK_IMPORTED_MODULE_6__.j)(t));
 																			return n < e.diff ? {
 																				diff: n,
@@ -845,7 +918,7 @@
 					value: function() {
 						var e = this,
 							t = this.buff;
-						this.buff = [], Object(_helpers__WEBPACK_IMPORTED_MODULE_5__.y)("users.get", {
+						this.buff = [], Object(_helpers__WEBPACK_IMPORTED_MODULE_5__.z)("users.get", {
 							user_ids: t.join(","),
 							fields: "deactivated,is_closed,has_photo,last_seen"
 						}).then((function(t) {
@@ -860,76 +933,77 @@
 		16: function(e, t, n) {
 			"use strict";
 			n.d(t, "v", (function() {
-				return W
-			})), n.d(t, "q", (function() {
 				return G
-			})), n.d(t, "r", (function() {
+			})), n.d(t, "q", (function() {
 				return H
-			})), n.d(t, "b", (function() {
+			})), n.d(t, "r", (function() {
 				return K
+			})), n.d(t, "b", (function() {
+				return X
 			})), n.d(t, "s", (function() {
-				return q
-			})), n.d(t, "A", (function() {
 				return Y
-			})), n.d(t, "c", (function() {
+			})), n.d(t, "A", (function() {
 				return V
-			})), n.d(t, "o", (function() {
+			})), n.d(t, "c", (function() {
 				return Z
-			})), n.d(t, "z", (function() {
+			})), n.d(t, "o", (function() {
 				return Q
-			})), n.d(t, "u", (function() {
+			})), n.d(t, "z", (function() {
 				return J
-			})), n.d(t, "p", (function() {
+			})), n.d(t, "u", (function() {
 				return $
-			})), n.d(t, "x", (function() {
+			})), n.d(t, "p", (function() {
 				return ee
+			})), n.d(t, "x", (function() {
+				return te
 			})), n.d(t, "C", (function() {
-				return ae
-			})), n.d(t, "m", (function() {
 				return re
-			})), n.d(t, "B", (function() {
+			})), n.d(t, "m", (function() {
 				return oe
-			})), n.d(t, "w", (function() {
+			})), n.d(t, "B", (function() {
 				return ie
-			})), n.d(t, "E", (function() {
+			})), n.d(t, "w", (function() {
 				return ce
+			})), n.d(t, "E", (function() {
+				return se
 			})), n.d(t, "y", (function() {
-				return le
-			})), n.d(t, "g", (function() {
 				return ue
-			})), n.d(t, "h", (function() {
+			})), n.d(t, "g", (function() {
 				return de
-			})), n.d(t, "i", (function() {
+			})), n.d(t, "h", (function() {
 				return _e
-			})), n.d(t, "j", (function() {
+			})), n.d(t, "i", (function() {
 				return pe
-			})), n.d(t, "d", (function() {
+			})), n.d(t, "j", (function() {
 				return me
-			})), n.d(t, "l", (function() {
+			})), n.d(t, "d", (function() {
 				return fe
-			})), n.d(t, "f", (function() {
+			})), n.d(t, "l", (function() {
 				return ve
-			})), n.d(t, "e", (function() {
+			})), n.d(t, "f", (function() {
 				return Ee
-			})), n.d(t, "D", (function() {
+			})), n.d(t, "e", (function() {
 				return be
+			})), n.d(t, "D", (function() {
+				return ge
 			})), n.d(t, "k", (function() {
-				return Oe
-			})), n.d(t, "n", (function() {
 				return we
+			})), n.d(t, "n", (function() {
+				return ye
 			})), n.d(t, "t", (function() {
-				return ke
+				return Pe
 			}));
 			var a, r = n(13),
 				o = n(35),
 				i = n(5),
 				c = n(6),
-				s = n(15),
+				s = n(14),
 				l = n.n(s),
-				u = n(137),
+				u = n(138),
 				d = n(47),
 				_ = n(50),
-				p = n(4);
+				p = n(3),
+				m = n(135);
 
 			function h(e, t) {
 				var n = Object.keys(e);
@@ -942,7 +1016,7 @@
 				return n
 			}
 
-			function m(e) {
+			function f(e) {
 				for (var t = 1; t < arguments.length; t++) {
 					var n = null != arguments[t] ? arguments[t] : {};
 					t % 2 ? h(n, !0).forEach((function(t) {
@@ -953,32 +1027,32 @@
 				}
 				return e
 			}
-			var f = "Game.SET_IMAGE",
-				v = "Game.SET_CHANNEL",
-				E = "Game.SET_COLOR",
-				b = "Game.SET_CURSOR_POS",
-				g = "Game.SET_SELECTED_PIXEL",
-				O = "Game.DROP_SELECTED_PIXEL",
-				w = "Game.SET_SELECTED_TOOL",
-				y = "Game.SET_SCORES",
-				k = "Game.SET_DEBUG",
-				P = "Game.SET_RELOAD",
-				M = "Game.SET_WAIT",
-				C = "Game.SET_TTL",
+			var v = "Game.SET_IMAGE",
+				E = "Game.SET_CHANNEL",
+				b = "Game.SET_COLOR",
+				g = "Game.SET_CURSOR_POS",
+				O = "Game.SET_SELECTED_PIXEL",
+				w = "Game.DROP_SELECTED_PIXEL",
+				y = "Game.SET_SELECTED_TOOL",
+				k = "Game.SET_SCORES",
+				P = "Game.SET_DEBUG",
+				M = "Game.SET_RELOAD",
+				C = "Game.SET_WAIT",
+				j = "Game.SET_TTL",
 				D = "Game.SET_ONLINE",
-				j = "Game.UPDATE_FREEZE",
-				x = "Game.SET_ROOT",
-				T = "Game.DECREMENT_SCORE",
-				L = "Game.DUPLICATE_CONNECT",
-				I = "Game.PLAY",
-				R = "Game.ONLINE",
-				A = "Game.OFFLINE",
-				F = "Game.START",
-				N = "Game.DECREMENT_TIME",
-				B = "Game.DECREMENT_COUNT",
-				S = "Game.LOCK_TOOL",
-				U = "Game.UPDATE",
-				z = (a = {
+				x = "Game.UPDATE_FREEZE",
+				T = "Game.SET_ROOT",
+				L = "Game.DECREMENT_SCORE",
+				I = "Game.DUPLICATE_CONNECT",
+				R = "Game.PLAY",
+				A = "Game.ONLINE",
+				F = "Game.OFFLINE",
+				N = "Game.START",
+				B = "Game.DECREMENT_TIME",
+				S = "Game.DECREMENT_COUNT",
+				U = "Game.LOCK_TOOL",
+				z = "Game.UPDATE",
+				W = (a = {
 					image: null,
 					context: null,
 					ttl: 30,
@@ -990,29 +1064,29 @@
 					selectedTool: null
 				}, Object(r.a)(a, c.c, null), Object(r.a)(a, c.d, null), Object(r.a)(a, c.e, null), Object(r.a)(a, c.f, null), Object(r.a)(a, "usageLost", 0), Object(r.a)(a, "debug", !1), Object(r.a)(a, "reload", !1), Object(r.a)(a, "wait", 0), Object(r.a)(a, "online", 0), Object(r.a)(a, "selectedInFreeze", !1), Object(r.a)(a, "root", !1), Object(r.a)(a, "duplicateConnect", !1), Object(r.a)(a, "preview", !0), Object(r.a)(a, "offline", !0), Object(r.a)(a, "start", !0), Object(r.a)(a, "pixelSecond", 30), Object(r.a)(a, "pixelCount", 15), Object(r.a)(a, "changeToolLock", !1), Object(r.a)(a, "joinChatLink", ""), Object(r.a)(a, "joinChatLinkError", null), Object(r.a)(a, "deadline", !1), a);
 
-			function W(e, t) {
-				return {
-					type: f,
-					image: e,
-					context: t
-				}
-			}
-
-			function G(e) {
+			function G(e, t) {
 				return {
 					type: v,
-					channel: e
+					image: e,
+					context: t
 				}
 			}
 
 			function H(e) {
 				return {
 					type: E,
+					channel: e
+				}
+			}
+
+			function K(e) {
+				return {
+					type: b,
 					color: e
 				}
 			}
 
-			function K() {
+			function X() {
 				return function(e, t) {
 					var n, a, r = t().Game,
 						s = r.cursorX,
@@ -1020,15 +1094,15 @@
 						_ = r.selectedTool,
 						p = r.offline,
 						h = r.channel,
-						m = r.deadline;
-					p || m ? e(m ? Object(d.i)() : Object(d.k)()) : h && h.isFreeze(s, u) ? e(Object(d.j)()) : _ ? _ === c.f ? e(function(e, t) {
+						f = r.deadline;
+					p || f ? e(f ? Object(d.i)() : Object(d.k)()) : h && h.isFreeze(s, u) ? e(Object(d.j)()) : (_ ? _ === c.f ? e(function(e, t) {
 						return function(n, a) {
 							var r = a().Game,
 								s = r.channel,
 								u = r.color,
 								d = Object(i.d)().indexOf(u),
 								_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.FLAG_PIXEL);
-							s && (s.sendPixel(_), n(he(c.f)), n(V()))
+							s && (s.sendPixel(_), n(he(c.f)), n(Z()))
 						}
 					}(s, u)) : _ === c.c ? e(function(e, t) {
 						return function(n, a) {
@@ -1037,7 +1111,7 @@
 								u = r.color,
 								d = Object(i.d)().indexOf(u),
 								_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.BOMB);
-							s && (s.sendPixel(_), n(he(c.c)), n(V()))
+							s && (s.sendPixel(_), n(he(c.c)), n(Z()))
 						}
 					}(s, u)) : _ === c.d ? e(function(e, t) {
 						return function(n, a) {
@@ -1046,7 +1120,7 @@
 								u = r.color,
 								d = Object(i.d)().indexOf(u),
 								_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.FREZE);
-							s && (s.sendPixel(_), n(he(c.d)), n(V()))
+							s && (s.sendPixel(_), n(he(c.d)), n(Z()))
 						}
 					}(s, u)) : _ === c.e && e(function(e, t) {
 						return function(n, a) {
@@ -1056,27 +1130,27 @@
 								d = r.pixelCount,
 								_ = Object(i.d)().indexOf(u),
 								p = new o.a(e, t, _, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.PIXEL);
-							s && (s.sendPixel(p), null === X && (n(function e() {
+							s && (s.sendPixel(p), null === q && (n(function e() {
 								return function(t, n) {
 									if (n().Game.pixelSecond <= 0) return t(he(c.e)), t({
-										type: S,
+										type: U,
 										lock: 0
-									}), X = null, void t(Z(null));
+									}), q = null, void t(Q(null));
 									t({
-										type: N
-									}), clearTimeout(X), X = setTimeout((function() {
+										type: B
+									}), clearTimeout(q), q = setTimeout((function() {
 										t(e())
 									}), 1e3)
 								}
 							}()), n({
-								type: S,
+								type: U,
 								lock: 1
 							})), n({
-								type: B
-							}), d <= 1 && (X = null, clearTimeout(X), n(he(c.e)), n({
-								type: S,
+								type: S
+							}), d <= 1 && (q = null, clearTimeout(q), n(he(c.e)), n({
+								type: U,
 								lock: 0
-							}), n(Z(null))), n(V()))
+							}), n(Q(null))), n(Z()))
 						}
 					}(s, u)) : e((n = s, a = u, function(e, t) {
 						var r = t().Game,
@@ -1085,171 +1159,171 @@
 							u = r.color,
 							_ = r.root,
 							p = Object(i.d)().indexOf(u),
-							h = new o.a(n, a, p, l.a.getStartParams().userId, l.a.getStartParams().groupId, 0);
-						c && (c.getColorIdAt(n, a) === u.replace("#000000", "#0").replace("#074BF3", "#74BF3") ? _ || e(Object(d.l)()) : (c.pushMyDot(n, a), c.sendPixel(h), e(ae(s)), e(V())))
-					}))
+							m = new o.a(n, a, p, l.a.getStartParams().userId, l.a.getStartParams().groupId, 0);
+						c && (c.getColorIdAt(n, a) === u.replace("#000000", "#0").replace("#074BF3", "#74BF3") ? _ || e(Object(d.l)()) : (c.pushMyDot(n, a), c.sendPixel(m), e(re(s)), e(Z())))
+					})), m.a.__sendGAEvent("draw", "pixel", l.a.getStartParams().isMobile() ? "mobile" : "desktop"))
 				}
 			}
 			t.a = function e() {
-				var t, n = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : z,
+				var t, n = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : W,
 					a = arguments.length > 1 ? arguments[1] : void 0;
 				switch (a.type) {
+					case z:
+						return f({}, n, {}, a.update);
 					case U:
-						return m({}, n, {}, a.update);
-					case S:
-						return m({}, n, {
+						return f({}, n, {
 							changeToolLock: a.lock
 						});
-					case B:
-						return m({}, n, {
+					case S:
+						return f({}, n, {
 							pixelCount: n.pixelCount - 1
 						});
-					case N:
-						return m({}, n, {
+					case B:
+						return f({}, n, {
 							pixelSecond: n.pixelSecond - 1
 						});
-					case F:
-						return m({}, n, {
+					case N:
+						return f({}, n, {
 							start: !1
 						});
-					case A:
-						return m({}, n, {
+					case F:
+						return f({}, n, {
 							offline: !0
 						});
-					case R:
-						return m({}, n, {
+					case A:
+						return f({}, n, {
 							offline: !1
 						});
-					case I:
-						return n.deadline ? n : m({}, n, {
+					case R:
+						return n.deadline ? n : f({}, n, {
 							preview: !1
 						});
-					case L:
-						return m({}, n, {
+					case I:
+						return f({}, n, {
 							duplicateConnect: !0
 						});
+					case L:
+						return (n = f({}, n, Object(r.a)({}, a.score, Math.max(n[a.score] - 1, 0)))).selectedTool === a.score && 0 === n[a.score] && (n.selectedTool = null), n;
 					case T:
-						return (n = m({}, n, Object(r.a)({}, a.score, Math.max(n[a.score] - 1, 0)))).selectedTool === a.score && 0 === n[a.score] && (n.selectedTool = null), n;
-					case x:
-						return m({}, n, {
+						return f({}, n, {
 							root: a.root
 						});
-					case j:
+					case x:
 						if (n.channel instanceof u.a) {
 							var s = n.channel.freeezedPixels[Object(i.r)(n.cursorX, n.cursorY)];
-							return m({}, n, {
+							return f({}, n, {
 								selectedInFreeze: s && s > Date.now()
 							})
 						}
 						return n;
 					case D:
-						return m({}, n, {
+						return f({}, n, {
 							online: a.online
 						});
-					case C:
-						return m({}, n, {
+					case j:
+						return f({}, n, {
 							ttl: a.ttl
 						});
-					case M:
-						return n.root ? n : m({}, n, {
+					case C:
+						return n.root ? n : f({}, n, {
 							wait: a.wait
 						});
-					case P:
-						return m({}, n, {
+					case M:
+						return f({}, n, {
 							reload: a.reload
 						});
-					case k:
-						return m({}, n, {
+					case P:
+						return f({}, n, {
 							debug: a.debug
 						});
+					case k:
+						return f({}, n, (t = {}, Object(r.a)(t, c.e, a[c.e]), Object(r.a)(t, c.c, a[c.c]), Object(r.a)(t, c.d, a[c.d]), Object(r.a)(t, c.f, a[c.f]), Object(r.a)(t, "usageLost", a.usageLost), t));
 					case y:
-						return m({}, n, (t = {}, Object(r.a)(t, c.e, a[c.e]), Object(r.a)(t, c.c, a[c.c]), Object(r.a)(t, c.d, a[c.d]), Object(r.a)(t, c.f, a[c.f]), t));
-					case w:
-						return n.changeToolLock ? n : m({}, n, {
+						return n.changeToolLock ? n : f({}, n, {
 							selectedTool: a.tool,
 							pixelCount: o.a.LOCK_COUNT,
 							pixelSecond: o.a.LOCK_TIME / 1e3
 						});
-					case O:
-						return m({}, n, {
+					case w:
+						return f({}, n, {
 							selected: !1,
 							showCursor: !1
 						});
-					case g:
-						return e(m({}, n, {
+					case O:
+						return e(f({}, n, {
 							cursorX: a.x,
 							cursorY: a.y,
 							showCursor: a.show,
 							selected: !0
 						}), {
-							type: j
+							type: x
 						});
-					case b:
-						return n.selected ? n : m({}, n, {
+					case g:
+						return n.selected ? n : f({}, n, {
 							cursorX: a.x,
 							cursorY: a.y,
 							showCursor: a.show
 						});
-					case f:
-						return m({}, n, {
+					case v:
+						return f({}, n, {
 							image: a.image,
 							context: a.context
 						});
-					case v:
-						return m({}, n, {
+					case E:
+						return f({}, n, {
 							channel: a.channel
 						});
-					case E:
-						return n.selectedTool && n.selectedTool !== c.e ? m({}, n, {
+					case b:
+						return n.selectedTool && n.selectedTool !== c.e ? f({}, n, {
 							color: a.color,
 							selectedTool: null
-						}) : m({}, n, {
+						}) : f({}, n, {
 							color: a.color
 						});
 					default:
 						return n
 				}
 			};
-			var X = null;
+			var q = null;
 
-			function q(e, t, n) {
+			function Y(e, t, n) {
 				return {
-					type: b,
+					type: g,
 					x: e,
 					y: t,
 					show: n
 				}
 			}
 
-			function Y(e, t, n) {
+			function V(e, t, n) {
 				return function(a, r) {
 					var o = r().Game,
 						i = o.root,
 						s = o.selectedTool,
 						l = o.wait;
 					!s && l > 0 || (a({
-						type: g,
+						type: O,
 						x: e,
 						y: t,
 						show: n
-					}), i ? a(K()) : s === c.e && a(K()))
+					}), i ? a(X()) : s === c.e && a(X()))
 				}
 			}
 
-			function V() {
+			function Z() {
 				return {
-					type: O
+					type: w
 				}
 			}
 
-			function Z(e) {
+			function Q(e) {
 				return {
-					type: w,
+					type: y,
 					tool: e
 				}
 			}
 
-			function Q(e, t, n, a, o) {
+			function J(e, t, n, a, o) {
 				return function(i, s) {
 					var l, u = s().Game;
 					if (!u.root)
@@ -1260,139 +1334,133 @@
 						var p = new Event("new_tool");
 						p.tool = c.e, window.dispatchEvent(p)
 					} else if (u[c.d] < t && null !== u[c.d]) {
-						var h = new Event("new_tool");
-						h.tool = c.d, window.dispatchEvent(h)
-					} else if (u[c.f] < a && null !== u[c.f]) {
 						var m = new Event("new_tool");
-						m.tool = c.f, window.dispatchEvent(m)
+						m.tool = c.d, window.dispatchEvent(m)
+					} else if (u[c.f] < a && null !== u[c.f]) {
+						var h = new Event("new_tool");
+						h.tool = c.f, window.dispatchEvent(h)
 					}
 					i((l = {
-						type: y
-					}, Object(r.a)(l, c.c, e), Object(r.a)(l, c.d, t), Object(r.a)(l, c.e, n), Object(r.a)(l, c.f, a), l)), i(Object(d.n)(o))
-				}
-			}
-
-			function J(e) {
-				return {
-					type: k,
-					debug: e
+						type: k
+					}, Object(r.a)(l, c.c, e), Object(r.a)(l, c.d, t), Object(r.a)(l, c.e, n), Object(r.a)(l, c.f, a), Object(r.a)(l, "usageLost", o), l)), i(Object(d.n)(o))
 				}
 			}
 
 			function $(e) {
+				return {
+					type: P,
+					debug: e
+				}
+			}
+
+			function ee(e) {
 				return function(t, n) {
 					var a = n().Game.channel;
 					a ? a.sendDebug(e) : console.warn("Not channel in state")
 				}
 			}
 
-			function ee(e) {
+			function te(e) {
 				return {
-					type: P,
+					type: M,
 					reload: e
 				}
 			}
-			var te = null,
-				ne = 0;
+			var ne = null,
+				ae = 0;
 
-			function ae(e) {
+			function re(e) {
 				return function(t, n) {
 					t({
-						type: M,
+						type: C,
 						wait: e
-					}), clearTimeout(te), e > 0 ? (te = setTimeout((function() {
+					}), clearTimeout(ne), e > 0 ? (ne = setTimeout((function() {
 						var e = n().Game.wait;
-						t(ae(e - 1))
-					}), 1e3), ne = Date.now()) : ne = 0
+						t(re(e - 1))
+					}), 1e3), ae = Date.now()) : ae = 0
 				}
 			}
 
-			function re() {
+			function oe() {
 				return function(e, t) {
 					var n = t().Game.wait;
 					if (n > 0) {
-						var a = Math.floor((Date.now() - ne) / 1e3);
-						e(ae(Math.max(0, n - a)))
+						var a = Math.floor((Date.now() - ae) / 1e3);
+						e(re(Math.max(0, n - a)))
 					}
 				}
 			}
 
-			function oe(e) {
+			function ie(e) {
 				return {
-					type: C,
+					type: j,
 					ttl: Math.ceil(e / 1e3)
 				}
 			}
 
-			function ie(e) {
+			function ce(e) {
 				return {
 					type: D,
 					online: e
 				}
 			}
 
-			function ce() {
+			function se() {
 				return {
-					type: j
+					type: x
 				}
 			}
 
-			function se(e, t, n, a, r) {
+			function le(e, t, n, a, r) {
 				return t < 0 && (t = 0), n < 0 && (n = 0), e.getImageData(t, n, a, r)
 			}
 
-			function le(e) {
+			function ue(e) {
 				return {
-					type: x,
+					type: T,
 					root: e
 				}
 			}
 
-			function ue(e, t, n) {
-				var a = se(e, t, n, 1, 1).data;
+			function de(e, t, n) {
+				var a = le(e, t, n, 1, 1).data;
 				return "#" + (Math.max(0, a[0]) << 16 | Math.max(0, a[1]) << 8 | Math.max(0, a[2])).toString(16).toUpperCase()
 			}
 
-			function de(e, t, n, a, r) {
-				return se(e, t, n, a, r).data
+			function _e(e, t, n, a, r) {
+				return le(e, t, n, a, r).data
 			}
 
-			function _e(e, t, n, a) {
+			function pe(e, t, n, a) {
 				var r = 4 * (n * a + t);
 				return "#" + (Math.max(0, e[r]) << 16 | Math.max(0, e[r + 1]) << 8 | Math.max(0, e[r + 2])).toString(16).toUpperCase()
 			}
 
-			function pe(e) {
+			function me(e) {
 				return parseInt(e.toString().replace("#", ""), 16)
 			}
 
 			function he(e) {
 				return {
-					type: T,
+					type: L,
 					score: e
 				}
 			}
 
-			function me() {
-				return {
-					type: L
-				}
-			}
-
 			function fe() {
-				var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
-				return Object(i.v)(), e ? function(e) {
-					e(ge({
-						preview: !1,
-						start: !1
-					}))
-				} : {
+				return {
 					type: I
 				}
 			}
 
 			function ve() {
-				return {
+				var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+				return Object(i.v)(), e ? function(e) {
+					e(Oe({
+						preview: !1,
+						start: !1
+					}))
+				} : {
 					type: R
 				}
 			}
@@ -1409,17 +1477,23 @@
 				}
 			}
 
-			function ge(e) {
+			function ge() {
 				return {
-					type: U,
+					type: N
+				}
+			}
+
+			function Oe(e) {
+				return {
+					type: z,
 					update: e
 				}
 			}
 
-			function Oe() {
+			function we() {
 				return function(e) {
 					l.a.getStartParams().groupId && _.a.request("group/link", {}, "GET").then((function(t) {
-						e(ge("null" !== t && t ? {
+						e(Oe("null" !== t && t ? {
 							joinChatLink: t
 						} : {
 							joinChatLink: ""
@@ -1430,33 +1504,33 @@
 				}
 			}
 
-			function we(e, t) {
+			function ye(e, t) {
 				return function(n, a) {
-					n(ge({
+					n(Oe({
 						joinChatLinkError: null
 					})), 0 === (e = (e || "").trim()).toLowerCase().indexOf("https://vk.me") || "" === e ? _.a.request("group/update", {
 						chat: e || "null"
 					}, "POST").then((function() {
-						n(ge({
+						n(Oe({
 							joinChatLinkError: null,
 							joinChatLink: e || ""
 						})), a().Game.channel.refreshGroup(), t()
 					})).catch((function(e) {
-						n(ge({
+						n(Oe({
 							joinChatLinkError: e.message
 						}))
-					})) : n(ge({
+					})) : n(Oe({
 						joinChatLinkError: p.a.t("bad_join_link")
 					}))
 				}
 			}
-			var ye = null;
+			var ke = null;
 
-			function ke(e) {
+			function Pe(e) {
 				return function(t) {
-					clearTimeout(ye), e > 0 ? e < 216e5 && (ye = setTimeout((function() {
-						t(ke(-1))
-					}), e)) : "#force" !== window.location.hash && t(ge({
+					clearTimeout(ke), e > 0 ? e < 216e5 && (ke = setTimeout((function() {
+						t(Pe(-1))
+					}), e)) : "#force" !== window.location.hash && t(Oe({
 						deadline: !0,
 						offline: !0,
 						preview: !0
@@ -1464,15 +1538,15 @@
 				}
 			}
 		},
-		161: function(e, t, n) {
+		162: function(e, t, n) {
 			"use strict";
 			n.r(t);
-			n(269), n(274), n(275), n(276), n(277), n(278), n(279), n(280), n(281), n(282), n(283), n(284), n(285), n(286), n(287), n(289), n(290), n(296), n(297), n(299), n(300), n(301), n(302), n(303), n(304), n(305), n(306), n(307), n(308), n(309), n(310), n(312), n(313), n(314), n(315), n(316), n(317), n(318), n(319), n(320), n(321), n(323), n(324), n(327), n(328), n(329), n(331), n(332), n(333), n(334), n(335), n(336), n(337), n(338), n(339), n(341), n(342), n(343), n(344), n(345), n(346), n(347), n(348), n(349), n(350), n(352), n(353), n(354), n(356), n(357), n(358), n(359), n(360), n(361), n(362), n(363), n(364), n(365), n(366), n(367), n(368), n(369), n(370), n(371), n(372), n(373), n(374), n(375), n(376);
+			n(270), n(275), n(276), n(277), n(278), n(279), n(280), n(281), n(282), n(283), n(284), n(285), n(286), n(287), n(288), n(290), n(291), n(297), n(298), n(300), n(301), n(302), n(303), n(304), n(305), n(306), n(307), n(308), n(309), n(310), n(311), n(313), n(314), n(315), n(316), n(317), n(318), n(319), n(320), n(321), n(322), n(324), n(325), n(328), n(329), n(330), n(332), n(333), n(334), n(335), n(336), n(337), n(338), n(339), n(340), n(342), n(343), n(344), n(345), n(346), n(347), n(348), n(349), n(350), n(351), n(353), n(354), n(355), n(357), n(358), n(359), n(360), n(361), n(362), n(363), n(364), n(365), n(366), n(367), n(368), n(369), n(370), n(371), n(372), n(373), n(374), n(375), n(376), n(377);
 			var a = n(39),
 				r = n.n(a),
 				o = n(63),
 				i = n(13),
-				c = (n(381), n(0)),
+				c = (n(382), n(0)),
 				s = n.n(c),
 				l = n(58),
 				u = n.n(l),
@@ -1490,9 +1564,9 @@
 				window.reactMounted ? u.a.unmountComponentAtNode(n) : d(n), window.reactMounted = !0, u.a.render(e, n)
 			}
 			window && window.kek && window.kek('Специальная строка, которую найдут школьники и запостят в свои паблосы типа:"Посмотрите какие мы хакиры умеем исходники смотреть!!!1"');
-			var p = n(15),
-				h = n.n(p),
-				m = n(45),
+			var p = n(14),
+				m = n.n(p),
+				h = n(45),
 				f = n(75),
 				v = Object(f.a)({
 					hashType: "noslash"
@@ -1505,14 +1579,14 @@
 				y = n(9),
 				k = n(11),
 				P = n(67),
-				M = n(4),
+				M = n(3),
 				C = n(5),
-				D = (n(420), n(21)),
-				j = (n(421), n(210)),
-				x = n.n(j),
+				j = (n(421), n(21)),
+				D = (n(422), n(211)),
+				x = n.n(D),
 				T = n(131),
-				L = n(140);
-			n(433);
+				L = n(141);
+			n(434);
 
 			function I(e, t) {
 				var n = Object.keys(e);
@@ -1566,7 +1640,7 @@
 							e && (e.style.top = "0"), window.scrollTo(0, this.state.scrolled), clearTimeout(this.animationFinishTimeout), window.removeEventListener("touchstart", this.onTouchStart)
 						}
 					}]), t
-				}(D.n),
+				}(j.n),
 				A = function(e) {
 					function t() {
 						var e, n;
@@ -1673,7 +1747,7 @@
 							} catch (t) {
 								e = "Empty text and cant't json stringify"
 							}
-							return e = window.navigator.userAgent + "\n\n" + e, e = "user_id:  ".concat(h.a.getStartParams().userId, " \n\n").concat(e), Object(C.q)(e)
+							return e = window.navigator.userAgent + "\n\n" + e, e = "user_id:  ".concat(m.a.getStartParams().userId, " \n\n").concat(e), Object(C.q)(e)
 						}
 					}, {
 						key: "isNetwork",
@@ -1710,13 +1784,13 @@
 								className: "ErrorMobile__sad"
 							}), s.a.createElement("div", {
 								className: "ErrorMobile__title"
-							}, this.isNetwork() ? M.a.t("network") : Object(C.q)(M.a.t("oops")))), t || this.isNetwork() && !this.props.onClose || r ? null : s.a.createElement(D.e, {
+							}, this.isNetwork() ? M.a.t("network") : Object(C.q)(M.a.t("oops")))), t || this.isNetwork() && !this.props.onClose || r ? null : s.a.createElement(j.e, {
 								vertical: "bottom"
 							}, s.a.createElement("div", {
 								className: "ErrorMobile__bottom"
 							}, this.isNetwork() ? null : s.a.createElement("div", {
 								className: "ErrorMobile__to-details"
-							}, s.a.createElement(D.c, {
+							}, s.a.createElement(j.c, {
 								stretched: !0,
 								size: "l",
 								level: "secondary",
@@ -1725,7 +1799,7 @@
 								}
 							}, M.a.t("error_details"))), this.isNetwork() && this.props.onClose && o.on_retry ? s.a.createElement("div", {
 								className: "ErrorMobile__to-details"
-							}, s.a.createElement(D.c, {
+							}, s.a.createElement(j.c, {
 								stretched: !0,
 								size: "l",
 								level: "secondary",
@@ -1734,7 +1808,7 @@
 								}
 							}, M.a.t("retry"))) : null, this.props.onClose && !o.prevent_close ? s.a.createElement("div", {
 								className: "ErrorMobile__close"
-							}, s.a.createElement(D.h, {
+							}, s.a.createElement(j.h, {
 								onClick: function() {
 									return e.props.onClose()
 								}
@@ -1758,16 +1832,16 @@
 				S = n.n(B),
 				U = n(102),
 				z = n.n(U),
-				W = n(138),
+				W = n(139),
 				G = n.n(W),
-				H = n(139),
+				H = n(140),
 				K = n.n(H),
 				X = n(104),
 				q = n.n(X),
-				Y = (n(434), n(87)),
+				Y = (n(435), n(87)),
 				V = n(37),
-				Z = (n(435), n(16)),
-				Q = (n(436), function(e) {
+				Z = (n(436), n(16)),
+				Q = (n(437), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -1805,7 +1879,7 @@
 				}), {
 					selectTool: Z.o
 				})(Q),
-				$ = (n(437), function() {}),
+				$ = (n(438), function() {}),
 				ee = function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
@@ -1832,7 +1906,7 @@
 					}]), t
 				}(c.Component),
 				te = n(81),
-				ne = n(211),
+				ne = n(212),
 				ae = n.n(ne),
 				re = n(6),
 				oe = function(e) {
@@ -1863,7 +1937,7 @@
 								disabled: !t,
 								color: t ? null : this.props.color
 							}, t ? M.a.t("wait", {
-								x: Object(C.z)(t)
+								x: Object(C.A)(t)
 							}) : M.a.t("change")))
 						}
 					}, {
@@ -1915,7 +1989,11 @@
 								count: 0
 							}), s.a.createElement("div", {
 								className: "MobileFooter__status"
-							}, M.a.t("tool_" + t)), s.a.createElement(te.a, {
+							}, s.a.createElement("div", {
+								className: "header"
+							}, M.a.t("type_" + t)), s.a.createElement("div", {
+								className: "description"
+							}, Object(C.x)(this.props.timeout))), s.a.createElement(te.a, {
 								onClick: function() {
 									return e.props.selectTool(null)
 								},
@@ -1944,7 +2022,8 @@
 						cursorY: e.Game.cursorY,
 						selectedTool: e.Game.selectedTool === re.e ? null : e.Game.selectedTool,
 						wait: e.Game.wait,
-						pixel: e.Game.selectedTool === re.e
+						pixel: e.Game.selectedTool === re.e,
+						timeout: e.Game.usageLost
 					}
 				}), {
 					dropSelectedPixel: Z.c,
@@ -1952,7 +2031,7 @@
 					selectTool: Z.o
 				})(oe),
 				ce = n(61),
-				se = (n(438), function(e) {
+				se = (n(439), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -1995,7 +2074,7 @@
 				}), {
 					setColor: Z.r
 				})(se),
-				ue = (n(439), function(e) {
+				ue = (n(440), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -2038,7 +2117,7 @@
 			var de = Object(E.b)((function(e) {
 					return {}
 				}), {})(ue),
-				_e = (n(440), function(e) {
+				_e = (n(441), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -2084,7 +2163,7 @@
 						selectedTool: e.Game.selectedTool
 					}
 				}), {})(_e),
-				he = (n(441), function(e) {
+				me = (n(442), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -2110,12 +2189,12 @@
 						}
 					}]), t
 				}(c.Component));
-			var me = Object(E.b)((function(e) {
+			var he = Object(E.b)((function(e) {
 					return {}
 				}), {
 					sendDebugMessage: Z.p
-				})(he),
-				fe = (n(442), function(e) {
+				})(me),
+				fe = (n(443), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -2152,8 +2231,8 @@
 				}), {})(fe),
 				Ee = n(31),
 				be = n(52),
-				ge = n(30),
-				Oe = (n(443), Object(D.s)()),
+				ge = n(28),
+				Oe = (n(444), Object(j.s)()),
 				we = function(e) {
 					function t() {
 						var e, n;
@@ -2232,30 +2311,30 @@
 						key: "render",
 						value: function() {
 							var e = this;
-							return s.a.createElement(D.j, {
+							return s.a.createElement(j.j, {
 								id: "top",
 								dynamicContentHeight: !0,
 								onClose: this.props.onClose,
-								header: s.a.createElement(s.a.Fragment, null, s.a.createElement(D.k, {
-									left: Oe === ce.OS.ANDROID && s.a.createElement(D.f, {
+								header: s.a.createElement(s.a.Fragment, null, s.a.createElement(j.k, {
+									left: Oe === ce.OS.ANDROID && s.a.createElement(j.f, {
 										onClick: this.props.onClose
 									}, s.a.createElement(S.a, null)),
-									right: Oe !== ce.OS.ANDROID && s.a.createElement(D.f, {
+									right: Oe !== ce.OS.ANDROID && s.a.createElement(j.f, {
 										onClick: this.props.onClose
 									}, s.a.createElement(z.a, null))
-								}, M.a.t("top")), s.a.createElement(D.p, {
+								}, M.a.t("top")), s.a.createElement(j.p, {
 									theme: "light"
-								}, s.a.createElement(D.q, {
+								}, s.a.createElement(j.q, {
 									onClick: function() {
 										return e.onChange(Ee.c)
 									},
 									selected: this.props.tag === Ee.c
-								}, M.a.t("groups")), s.a.createElement(D.q, {
+								}, M.a.t("groups")), s.a.createElement(j.q, {
 									onClick: function() {
 										return e.onChange(Ee.b)
 									},
 									selected: this.props.tag === Ee.b
-								}, M.a.t("friends")), s.a.createElement(D.q, {
+								}, M.a.t("friends")), s.a.createElement(j.q, {
 									onClick: function() {
 										return e.onChange(Ee.a)
 									},
@@ -2287,7 +2366,7 @@
 					setTag: be.d,
 					reRequest: be.c
 				})(we),
-				ke = (n(445), function(e) {
+				ke = (n(446), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -2317,9 +2396,9 @@
 					return {}
 				}), {})(ke),
 				Me = n(47),
-				Ce = (n(446), n(35)),
-				De = "ps";
-			var je = function(e) {
+				Ce = (n(447), n(35)),
+				je = "ps";
+			var De = function(e) {
 					var t = e.x,
 						n = e.y;
 					return s.a.createElement("div", {
@@ -2354,7 +2433,7 @@
 								href: r.url,
 								rel: "noopener noreferrer",
 								target: "_blank"
-							}, r.name.split(" ").shift()), M.a.t("user_bombed_" + (1 === r.sex ? "f" : "m"))), o ? s.a.createElement(je, o) : null) : e.type === Me.f ? s.a.createElement("div", {
+							}, r.name.split(" ").shift()), M.a.t("user_bombed_" + (1 === r.sex ? "f" : "m"))), o ? s.a.createElement(De, o) : null) : e.type === Me.f ? s.a.createElement("div", {
 								key: e.id,
 								className: "MobileEventView__event"
 							}, s.a.createElement("img", {
@@ -2387,7 +2466,7 @@
 								className: "MobileEventView__event" + (e.bzz ? " bzz" + e.bzz : "")
 							}, s.a.createElement("span", {
 								className: "MobileEventView__name padding"
-							}, M.a.t("this_same_color"))) : e.type === De ? s.a.createElement("div", {
+							}, M.a.t("this_same_color"))) : e.type === je ? s.a.createElement("div", {
 								key: e.id,
 								onClick: function() {
 									return a.props.selectTool(null)
@@ -2395,7 +2474,7 @@
 								className: "MobileEventView__event"
 							}, s.a.createElement("img", {
 								alt: "pixel",
-								src: n(447),
+								src: n(448),
 								className: "MobileEventView__icon"
 							}), s.a.createElement("span", {
 								className: "MobileEventView__name" + (Ce.a.LOCK_COUNT > a.props.pixelCount ? " padding" : "")
@@ -2413,7 +2492,7 @@
 							return s.a.createElement("div", {
 								className: "MobileEventView" + (this.props.desktop ? " MobileEventView--desktop" : "")
 							}, this.props.list.map(this.event), this.props.speed ? this.event({
-								type: De,
+								type: je,
 								id: "-1",
 								data: {}
 							}) : null, this.props.pin ? this.event(this.props.pin) : null)
@@ -2431,7 +2510,7 @@
 				}), {
 					selectTool: Z.o
 				})(xe),
-				Le = (n(448), n(167)),
+				Le = (n(449), n(168)),
 				Ie = n.n(Le),
 				Re = function(e) {
 					function t() {
@@ -2542,7 +2621,7 @@
 			}), {
 				play: Z.l
 			})(Re);
-			n(453);
+			n(454);
 			var Fe = function(e) {
 				function t() {
 					return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
@@ -2569,7 +2648,7 @@
 						online: e.Game.online
 					}
 				}), {})(Fe),
-				Be = (n(454), function(e) {
+				Be = (n(455), function(e) {
 					function t(e, n) {
 						var a;
 						return Object(g.a)(this, t), (a = Object(w.a)(this, Object(y.a)(t).call(this, e, n))).onChange = function(e) {
@@ -2586,7 +2665,7 @@
 						key: "render",
 						value: function() {
 							var e = this.props.joinChatLinkError;
-							return s.a.createElement(D.i, {
+							return s.a.createElement(j.i, {
 								onClose: this.props.onClose,
 								icon: s.a.createElement(q.a, {
 									width: 56,
@@ -2601,7 +2680,7 @@
 								}]
 							}, s.a.createElement("br", null), e ? s.a.createElement("div", {
 								className: "MobileAddChatCard__error"
-							}, e) : null, s.a.createElement(D.g, {
+							}, e) : null, s.a.createElement(j.g, {
 								value: this.state.url,
 								status: e ? "error" : "",
 								onFocus: function(e) {
@@ -2620,7 +2699,7 @@
 				}), {
 					saveGroupChatLink: Z.n
 				})(Be),
-				Ue = (n(455), Object(D.s)()),
+				Ue = (n(456), Object(j.s)()),
 				ze = "palette",
 				We = "top",
 				Ge = "tool",
@@ -2634,7 +2713,7 @@
 					var t = e.joinChatLink,
 						n = e.onContext,
 						a = e.onEmptyClick,
-						r = "admin" === h.a.getStartParams().viewerGroupRole;
+						r = "admin" === m.a.getStartParams().viewerGroupRole;
 					return t || r ? s.a.createElement("a", {
 						href: t,
 						target: "_blank",
@@ -2671,7 +2750,7 @@
 						}, a.exploreTimer = null, a.onExplore = function() {
 							a.canvas && !a.exploreTimer && (a.canvas.classList.add("explore"), a.exploreTimer = setTimeout((function() {
 								a.exploreTimer = null, a.canvas.classList.remove("explore")
-							}), 150), h.a.tapticNotificationOccurred({
+							}), 150), m.a.tapticNotificationOccurred({
 								type: "success"
 							}).catch((function() {})))
 						}, a.onNewTool = function(e) {
@@ -2736,10 +2815,10 @@
 										_ && p ? a.y = l : (u > 0 && u > a.bottomPadding && l < a.y && (a.y = a.frameH - i - a.bottomPadding), l > 0 && l > a.bottomPadding && l > a.y && (a.y = a.topPadding))
 									} else a.y = l;
 									if (s > 0 || d > 0) {
-										var h = s > 0 && (s > a.leftPadding && s <= a.x || s < a.leftPadding);
-										h = h || s < 0;
-										var m = d > 0 && (d > a.rightPadding && s >= a.x || d < a.rightPadding);
-										m = m || d < 0, h && m ? a.x = s : (s > 0 && s > a.leftPadding && s > a.x && (a.x = a.leftPadding), d > 0 && d > a.rightPadding && s < a.x && (a.x = a.frameW - c - a.rightPadding))
+										var m = s > 0 && (s > a.leftPadding && s <= a.x || s < a.leftPadding);
+										m = m || s < 0;
+										var h = d > 0 && (d > a.rightPadding && s >= a.x || d < a.rightPadding);
+										h = h || d < 0, m && h ? a.x = s : (s > 0 && s > a.leftPadding && s > a.x && (a.x = a.leftPadding), d > 0 && d > a.rightPadding && s < a.x && (a.x = a.frameW - c - a.rightPadding))
 									} else a.x = s;
 									a.setState({
 										x: a.x,
@@ -2906,26 +2985,26 @@
 						key: "modal",
 						value: function() {
 							var e = this;
-							return s.a.createElement(D.l, {
+							return s.a.createElement(j.l, {
 								activeModal: this.state.activeModal
 							}, s.a.createElement(ye, {
 								id: We,
 								dynamicContentHeight: !0,
 								onClose: this.modalBack
-							}), s.a.createElement(D.j, {
+							}), s.a.createElement(j.j, {
 								id: ze,
 								onClose: this.modalBack,
-								header: s.a.createElement(D.k, {
-									left: Ue === ce.OS.ANDROID && s.a.createElement(D.f, {
+								header: s.a.createElement(j.k, {
+									left: Ue === ce.OS.ANDROID && s.a.createElement(j.f, {
 										onClick: this.modalBack
 									}, s.a.createElement(S.a, null)),
-									right: Ue !== ce.OS.ANDROID && s.a.createElement(D.f, {
+									right: Ue !== ce.OS.ANDROID && s.a.createElement(j.f, {
 										onClick: this.modalBack
 									}, s.a.createElement(z.a, null))
 								}, M.a.t("select_color"))
 							}, s.a.createElement(le, {
 								onClose: this.modalBack
-							})), s.a.createElement(D.i, {
+							})), s.a.createElement(j.i, {
 								id: Ge,
 								onClose: this.modalBack,
 								icon: s.a.createElement(J, {
@@ -2941,7 +3020,7 @@
 										return e.modalBack()
 									}
 								}]
-							}), s.a.createElement(D.i, {
+							}), s.a.createElement(j.i, {
 								id: He,
 								onClose: this.modalBack,
 								icon: s.a.createElement(J, {
@@ -2957,7 +3036,7 @@
 										return e.modalBack()
 									}
 								}]
-							}), s.a.createElement(D.i, {
+							}), s.a.createElement(j.i, {
 								id: Ke,
 								onClose: this.modalBack,
 								icon: s.a.createElement(G.a, null),
@@ -2970,7 +3049,7 @@
 										return Object(C.w)(e.state.link)
 									}
 								}]
-							}, s.a.createElement("br", null), s.a.createElement(D.g, {
+							}, s.a.createElement("br", null), s.a.createElement(j.g, {
 								value: this.state.link.replace("https://", ""),
 								onFocus: function(e) {
 									return e.target.select()
@@ -3011,16 +3090,16 @@
 							}, M.a.t("not_supported"))));
 							if (i) return s.a.createElement(Pe, null);
 							var c = Y.a.fromLocation(r.pathname, r.state);
-							return s.a.createElement(D.o, {
+							return s.a.createElement(j.o, {
 								className: "MobileContainer",
 								activeView: c.getViewId()
-							}, s.a.createElement(D.r, {
+							}, s.a.createElement(j.r, {
 								id: V.d,
 								modal: this.modal(),
 								popout: this.state.popout,
 								activePanel: V.b,
 								history: []
-							}, s.a.createElement(D.m, {
+							}, s.a.createElement(j.m, {
 								id: V.b
 							}, s.a.createElement("canvas", {
 								onMouseDown: this.onMouseDown,
@@ -3042,13 +3121,13 @@
 								},
 								onContext: function(t) {
 									window.history.pushState({}, "context", "#context"), e.setState({
-										popout: s.a.createElement(D.a, {
+										popout: s.a.createElement(j.a, {
 											onClose: function() {
 												return e.setState({
 													popout: null
 												})
 											}
-										}, s.a.createElement(D.b, {
+										}, s.a.createElement(j.b, {
 											autoclose: !0,
 											before: s.a.createElement(q.a, null)
 										}, s.a.createElement("a", {
@@ -3056,13 +3135,13 @@
 											target: "_blank",
 											className: "MobileContainer__menu-link",
 											rel: "noopener noreferrer"
-										}, "\xa0"), M.a.t("go_to_chat")), s.a.createElement(D.b, {
+										}, "\xa0"), M.a.t("go_to_chat")), s.a.createElement(j.b, {
 											autoclose: !0,
 											onClick: function() {
 												return e.modalPush("chat_update")
 											},
 											before: s.a.createElement(K.a, null)
-										}, M.a.t("edit")), Ue === ce.OS.IOS && s.a.createElement(D.b, {
+										}, M.a.t("edit")), Ue === ce.OS.IOS && s.a.createElement(j.b, {
 											autoclose: !0,
 											theme: "cancel"
 										}, M.a.t("cancel")))
@@ -3080,7 +3159,7 @@
 								y: this.y,
 								mobile: !0,
 								zoom: this.state.zoom
-							}), o ? s.a.createElement(me, null) : null, s.a.createElement(Te, null), s.a.createElement(Ae, {
+							}), o ? s.a.createElement(he, null) : null, s.a.createElement(Te, null), s.a.createElement(Ae, {
 								mobile: !0
 							}), s.a.createElement(Ne, null))))
 						}
@@ -3102,7 +3181,7 @@
 					removeFatalError: P.b,
 					setSelectedPixel: Z.A
 				})(qe),
-				Ve = n(215),
+				Ve = n(216),
 				Ze = n(108),
 				Qe = function(e) {
 					function t() {
@@ -3125,9 +3204,9 @@
 						}
 					}]), t
 				}(c.Component),
-				Je = (n(456), n(1)),
+				Je = (n(457), n(1)),
 				$e = n.n(Je);
-			n(457);
+			n(458);
 
 			function et(e) {
 				e.stopPropagation()
@@ -3157,7 +3236,7 @@
 				}, {
 					key: "componentDidMount",
 					value: function() {
-						Object(C.u)(Wt)
+						Object(C.u)(Ht)
 					}
 				}, {
 					key: "componentDidUpdate",
@@ -3169,7 +3248,7 @@
 					value: function() {
 						if (this.popup) {
 							var e = this.popup.clientHeight + 40;
-							document.body.clientHeight < this.popup.clientHeight && e !== this.state.lastResizedHeight && (h.a.resizeWindow(zt, e).then().catch(), this.setState({
+							document.body.clientHeight < this.popup.clientHeight && e !== this.state.lastResizedHeight && (m.a.resizeWindow(Gt, e).then().catch(), this.setState({
 								lastResizedHeight: e
 							}))
 						}
@@ -3177,7 +3256,7 @@
 				}, {
 					key: "componentWillUnmount",
 					value: function() {
-						clearTimeout(this.t), this.initialHeight && h.a.resizeWindow(zt, this.initialHeight).then().catch()
+						clearTimeout(this.t), this.initialHeight && m.a.resizeWindow(Gt, this.initialHeight).then().catch()
 					}
 				}, {
 					key: "render",
@@ -3228,7 +3307,7 @@
 					return Object(k.a)(t, e), Object(O.a)(t, [{
 						key: "componentDidMount",
 						value: function() {
-							Object(L.a)(Object(y.a)(t.prototype), "componentDidMount", this).call(this), h.a.scroll(0, Wt).then().catch()
+							Object(L.a)(Object(y.a)(t.prototype), "componentDidMount", this).call(this), m.a.scroll(0, Ht).then().catch()
 						}
 					}, {
 						key: "toggleDetails",
@@ -3247,7 +3326,7 @@
 							} catch (t) {
 								e = "Empty text and cant't json stringify"
 							}
-							return e = window.navigator.userAgent + "\n\n" + e, e = "user_id:  ".concat(h.a.getStartParams().userId, " \n\n").concat(e), Object(C.q)(e)
+							return e = window.navigator.userAgent + "\n\n" + e, e = "user_id:  ".concat(m.a.getStartParams().userId, " \n\n").concat(e), Object(C.q)(e)
 						}
 					}, {
 						key: "isNetwork",
@@ -3328,7 +3407,7 @@
 						}
 					}]), t
 				}(Qe),
-				rt = (n(458), n(459), function(e) {
+				rt = (n(459), n(460), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -3344,7 +3423,7 @@
 			var ot = Object(E.b)((function(e) {
 					return {}
 				}), {})(rt),
-				it = (n(460), function(e) {
+				it = (n(461), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -3403,7 +3482,7 @@
 				}), {
 					setTag: be.d
 				})(it),
-				st = (n(461), function(e) {
+				st = (n(462), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -3502,7 +3581,7 @@
 					setTag: be.d,
 					reRequest: be.c
 				})(st),
-				ut = (n(462), function(e) {
+				ut = (n(463), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -3526,7 +3605,7 @@
 			var dt = Object(E.b)((function(e) {
 					return {}
 				}), {})(ut),
-				_t = (n(463), function(e) {
+				_t = (n(464), function(e) {
 					function t() {
 						var e, n;
 						Object(g.a)(this, t);
@@ -3574,7 +3653,7 @@
 						value: function() {
 							return s.a.createElement("div", {
 								className: "ColorPalette__confirm gray"
-							}, s.a.createElement("div", null, Object(C.q)(M.a.t("dot_will_alive_after")), s.a.createElement("br", null), Object(C.z)(this.props.wait)))
+							}, s.a.createElement("div", null, Object(C.q)(M.a.t("dot_will_alive_after")), s.a.createElement("br", null), Object(C.A)(this.props.wait)))
 						}
 					}, {
 						key: "render",
@@ -3608,7 +3687,7 @@
 					dropSelectedPixel: Z.c,
 					drawPixel: Z.b
 				})(_t),
-				ht = (n(464), n(465), n(466), function(e) {
+				mt = (n(465), n(466), n(467), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -3630,7 +3709,7 @@
 						}
 					}]), t
 				}(c.Component)),
-				mt = n(86),
+				ht = n(86),
 				ft = function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
@@ -3643,7 +3722,7 @@
 								className: "DesktopLeftFooter"
 							}, s.a.createElement("div", {
 								className: "flex"
-							}, s.a.createElement("span", null, M.a.t("auto_update_cover")), s.a.createElement(ht, {
+							}, s.a.createElement("span", null, M.a.t("auto_update_cover")), s.a.createElement(mt, {
 								checked: this.props.enable,
 								onChange: function() {
 									return e.props.toggleEnable()
@@ -3663,7 +3742,7 @@
 						enable: e.Group.enable
 					}
 				}), {
-					toggleEnable: mt.d
+					toggleEnable: ht.d
 				})(ft),
 				Et = function(e) {
 					function t() {
@@ -3683,7 +3762,7 @@
 			var bt = Object(E.b)((function(e) {
 					return {}
 				}), {})(Et),
-				gt = (n(467), function(e) {
+				gt = (n(468), function(e) {
 					function t(e) {
 						var n;
 						return Object(g.a)(this, t), (n = Object(w.a)(this, Object(y.a)(t).call(this, e))).root = null, n.dot = null, n.onMouseUp = function() {
@@ -3733,14 +3812,16 @@
 					}, {
 						key: "setXForValue",
 						value: function(e) {
-							var t = e - this.getPosition(this.root).x,
-								n = this.root.clientWidth,
-								a = Math.min(1, Math.max(0, t / n)),
-								r = this.props,
-								o = r.max,
-								i = r.min,
-								c = (o - i) * a + i;
-							this.props.onChange(c)
+							if (this.root) {
+								var t = e - this.getPosition(this.root).x,
+									n = this.root.clientWidth,
+									a = Math.min(1, Math.max(0, t / n)),
+									r = this.props,
+									o = r.max,
+									i = r.min,
+									c = (o - i) * a + i;
+								this.props.onChange(c)
+							}
 						}
 					}, {
 						key: "getPosition",
@@ -3841,14 +3922,14 @@
 			var Ot = Object(E.b)((function(e) {
 					return {}
 				}), {})(gt),
-				wt = (n(468), function(e) {
+				wt = (n(469), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
 					return Object(k.a)(t, e), Object(O.a)(t, [{
 						key: "render",
 						value: function() {
-							var e = "admin" === h.a.getStartParams().viewerGroupRole,
+							var e = "admin" === m.a.getStartParams().viewerGroupRole,
 								t = this.props.joinChatLink;
 							return t ? s.a.createElement("div", {
 								className: "DesktopExLink"
@@ -3912,7 +3993,7 @@
 						joinChatLink: e.Game.joinChatLink
 					}
 				}), {})(wt),
-				kt = (n(469), function(e) {
+				kt = (n(470), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -3938,7 +4019,7 @@
 						y: e.Game.cursorY
 					}
 				}), {})(kt),
-				Mt = (n(470), n(471), function(e) {
+				Mt = (n(471), n(472), function(e) {
 					function t() {
 						return Object(g.a)(this, t), Object(w.a)(this, Object(y.a)(t).apply(this, arguments))
 					}
@@ -3998,7 +4079,7 @@
 					return e
 				}
 			};
-			var Dt = function(e) {
+			var jt = function(e) {
 				function t() {
 					var e, n;
 					Object(g.a)(this, t);
@@ -4076,7 +4157,7 @@
 					}
 				}]), t
 			}(c.Component);
-			var jt = Object(E.b)((function(e) {
+			var Dt = Object(E.b)((function(e) {
 					var t;
 					return {
 						tag: e.Rating.tag,
@@ -4086,8 +4167,8 @@
 				}), {
 					setTag: be.d,
 					reRequest: be.c
-				})(Dt),
-				xt = (n(472), "MODAL_TOOL"),
+				})(jt),
+				xt = (n(473), "MODAL_TOOL"),
 				Tt = "MODAL_HELP_TOOL",
 				Lt = "MODAL_TOP",
 				It = "MODAL_GIFT",
@@ -4219,7 +4300,7 @@
 							onClick: a.modalBack
 						}, M.a.t("next")))
 					}, a.top = function() {
-						return s.a.createElement(jt, null)
+						return s.a.createElement(Dt, null)
 					}, a.gift = function() {
 						var e = a.state.tool;
 						return s.a.createElement("div", {
@@ -4326,22 +4407,69 @@
 				}]), t
 			}(c.Component);
 			var St = Object(E.b)((function(e) {
+					return {
+						channel: e.Game.channel,
+						joinChatLink: e.Game.joinChatLink,
+						joinChatLinkError: e.Game.joinChatLinkError
+					}
+				}), {
+					saveGroupChatLink: Z.n
+				})(Bt),
+				Ut = (n(474), n(475), function(e) {
+					function t() {
+						var e, n;
+						Object(g.a)(this, t);
+						for (var a = arguments.length, r = new Array(a), o = 0; o < a; o++) r[o] = arguments[o];
+						return (n = Object(w.a)(this, (e = Object(y.a)(t)).call.apply(e, [this].concat(r)))).onClick = function() {
+							n.props.selectTool(null)
+						}, n
+					}
+					return Object(k.a)(t, e), Object(O.a)(t, [{
+						key: "render",
+						value: function() {
+							return this.props.tool ? s.a.createElement("div", {
+								className: "ToolNotify"
+							}, s.a.createElement("div", {
+								className: "ToolNotify__top"
+							}, s.a.createElement("div", {
+								className: "left"
+							}, s.a.createElement(J, {
+								disable: !0,
+								type: this.props.tool
+							})), s.a.createElement("div", {
+								className: "right"
+							}, s.a.createElement("div", {
+								className: "header"
+							}, M.a.t("type_" + this.props.tool)), s.a.createElement("div", {
+								className: "description"
+							}, M.a.t("it_is_".concat(this.props.tool, "_description"))))), s.a.createElement("div", {
+								className: "ToolNotify__hr"
+							}), s.a.createElement("div", {
+								className: "ToolNotify__footer"
+							}, s.a.createElement("div", {
+								className: "ToolNotify__red"
+							}, Object(C.x)(this.props.timeout)), s.a.createElement(ge.Button, {
+								type: "secondary",
+								onClick: this.onClick
+							}, M.a.t("cancel")))) : null
+						}
+					}]), t
+				}(c.Component));
+			var zt = Object(E.b)((function(e) {
 				return {
-					channel: e.Game.channel,
-					joinChatLink: e.Game.joinChatLink,
-					joinChatLinkError: e.Game.joinChatLinkError
+					tool: e.Game.selectedTool,
+					timeout: e.Game.usageLost
 				}
 			}), {
-				saveGroupChatLink: Z.n
-			})(Bt);
-			n(473);
+				selectTool: Z.o
+			})(Ut);
 
-			function Ut() {
-				document.fullscreenElement ? document.exitFullscreen && document.exitFullscreen() : document.documentElement.requestFullscreen()
+			function Wt() {
+				document.documentElement.requestFullscreen && (document.fullscreenElement ? document.exitFullscreen && document.exitFullscreen() : document.documentElement.requestFullscreen())
 			}
-			var zt = 660,
-				Wt = 1500,
-				Gt = function(e) {
+			var Gt = 660,
+				Ht = 1500,
+				Kt = function(e) {
 					function t(e, n) {
 						var a;
 						Object(g.a)(this, t), (a = Object(w.a)(this, Object(y.a)(t).call(this, e, n))).canvas = null, a.ctx = null, a.x = 0, a.y = 0, a.mousePressed = !1, a.w = re.b, a.h = re.a, a.frameW = 1e3, a.frameH = 692, a.original = null, a.topPadding = 250, a.leftPadding = 100, a.rightPadding = 300, a.bottomPadding = 250, a.minZoom = 1, a.maxZoom = 50, a.state = {
@@ -4397,8 +4525,8 @@
 									if (c > 0 || u > 0) {
 										var p = c > 0 && (c > a.leftPadding && c <= a.x || c < a.leftPadding);
 										p = p || c < 0;
-										var h = u > 0 && (u > a.rightPadding && c >= a.x || u < a.rightPadding);
-										h = h || u < 0, p && h ? a.x = c : (c > 0 && c > a.leftPadding && c > a.x && (a.x = a.leftPadding), u > 0 && u > a.rightPadding && c < a.x && (a.x = a.frameW - i - a.rightPadding))
+										var m = u > 0 && (u > a.rightPadding && c >= a.x || u < a.rightPadding);
+										m = m || u < 0, p && m ? a.x = c : (c > 0 && c > a.leftPadding && c > a.x && (a.x = a.leftPadding), u > 0 && u > a.rightPadding && c < a.x && (a.x = a.frameW - i - a.rightPadding))
 									} else a.x = c;
 									Object(C.a)(e.clientX - a.startX) + Object(C.a)(e.clientY - a.startY) > 10 && (a.lockClick = !0), a.setState({
 										x: a.x,
@@ -4542,13 +4670,13 @@
 							}), this.props.view ? null : s.a.createElement(St, null), this.props.view ? null : s.a.createElement(Te, {
 								desktop: !0
 							}), this.props.view ? null : s.a.createElement(Ne, {
-								onDoubleClick: Ut,
+								onDoubleClick: Wt,
 								desktop: !0
-							}), this.props.view ? null : s.a.createElement(Ae, null))
+							}), this.props.view ? null : s.a.createElement(Ae, null), s.a.createElement(zt, null))
 						}
 					}]), t
 				}(c.Component);
-			var Ht = Object(E.b)((function(e) {
+			var Xt = Object(E.b)((function(e) {
 					return {
 						image: e.Game.image,
 						context: e.Game.context,
@@ -4561,13 +4689,13 @@
 					removeFatalError: P.b,
 					setCursorPos: Z.s,
 					setSelectedPixel: Z.A
-				})(Gt),
-				Kt = n(137),
-				Xt = n(477),
-				qt = n(57),
-				Yt = n(476);
+				})(Kt),
+				qt = n(138),
+				Yt = n(479),
+				Vt = n(57),
+				Zt = n(478);
 
-			function Vt(e, t) {
+			function Qt(e, t) {
 				var n = Object.keys(e);
 				if (Object.getOwnPropertySymbols) {
 					var a = Object.getOwnPropertySymbols(e);
@@ -4578,26 +4706,28 @@
 				return n
 			}
 			n.d(t, "replacePage", (function() {
-				return Qt
-			})), Object(C.m)() || (Xt.a({
+				return $t
+			})), Object(C.m)() || Math.random() > .9 && (Yt.a({
 				dsn: "https://073acd88ba9647898c78501cce55751f@sentry.w5.vkforms.ru/34",
-				release: "2.0.0@master-bf43a5c"
-			}), h.a.getClientVersion().then((function(e) {
+				release: "2.0.0@master-5e79cc0"
+			}), Vt.d({
+				email: "id".concat(m.a.getStartParams().userId, "@vk.com")
+			}), m.a.getClientVersion().then((function(e) {
 				var t = e.platform,
 					n = e.version;
-				qt.c((function(e) {
+				Vt.c((function(e) {
 					e.setExtra("client_platform", t || "unknown"), e.setExtra("client_version", n || "unknown")
 				}))
-			})).catch((function() {})), h.a.addLogCallback((function(e) {
-				qt.a({
+			})).catch((function() {})), m.a.addLogCallback((function(e) {
+				Vt.a({
 					category: "bridge",
 					message: e,
-					level: Yt.a.Info
+					level: Zt.a.Info
 				})
 			})));
-			var Zt = Object(D.s)();
+			var Jt = Object(j.s)();
 
-			function Qt(e) {
+			function $t(e) {
 				var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {},
 					n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "";
 				if (Y.a.fromPageId(e, t).isPopup()) {
@@ -4605,9 +4735,9 @@
 					t.pageId && (a.pageId = t.pageId, delete t.pageId), t = function(e) {
 						for (var t = 1; t < arguments.length; t++) {
 							var n = null != arguments[t] ? arguments[t] : {};
-							t % 2 ? Vt(n, !0).forEach((function(t) {
+							t % 2 ? Qt(n, !0).forEach((function(t) {
 								Object(i.a)(e, t, n[t])
-							})) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : Vt(n).forEach((function(t) {
+							})) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : Qt(n).forEach((function(t) {
 								Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t))
 							}))
 						}
@@ -4622,29 +4752,29 @@
 					search: n
 				})
 			}
-			"scrollRestoration" in v && (v.scrollRestoration = "manual"), Object(C.o)(-1 !== window.location.hash.toString().indexOf("ui=0")), h.a.init().catch((function() {})), Zt === ce.OS.IOS && h.a.setViewSettings("dark").catch((function() {})), h.a.subscribeEvent("VKWebAppViewRestore", (function() {
-				m.a.dispatch(Object(Me.h)()), m.a.dispatch(Object(Me.o)()), m.a.dispatch(Object(Z.m)())
+			"scrollRestoration" in v && (v.scrollRestoration = "manual"), Object(C.o)(-1 !== window.location.hash.toString().indexOf("ui=0")), m.a.init().catch((function() {})), Jt === ce.OS.IOS && m.a.setViewSettings("dark").catch((function() {})), m.a.subscribeEvent("VKWebAppViewRestore", (function() {
+				h.a.dispatch(Object(Me.h)()), h.a.dispatch(Object(Me.o)()), h.a.dispatch(Object(Z.m)())
 			}));
-			var Jt = h.a.getStartParams();
-			window._hsMobileUI = Jt.isMobile();
-			var $t = new Kt.a(m.a, h.a.getStartParams().userId, h.a.getStartParams().groupId);
-			$t.onOnlineCallback = function() {
-				m.a.dispatch(Object(Z.q)($t)), m.a.dispatch(Object(be.b)()), m.a.dispatch(Object(Z.D)())
-			}, $t.start().catch((function(e) {
-				return m.a.dispatch(Object(P.c)(e))
-			})), m.a.dispatch(Object(Z.r)(Object(C.d)()[Object(C.s)(Object(C.d)().length - 1)])), -1 === window.location.hash.toString().indexOf("show-start-screen") && Object(C.l)().then((function(e) {
-				e && m.a.dispatch(Object(Z.l)())
-			})), window.uc = $t, -1 !== window.location.hash.toString().indexOf("open-console") && function() {
+			var en = m.a.getStartParams();
+			window._hsMobileUI = en.isMobile();
+			var tn = new qt.a(h.a, m.a.getStartParams().userId, m.a.getStartParams().groupId);
+			tn.onOnlineCallback = function() {
+				h.a.dispatch(Object(Z.q)(tn)), h.a.dispatch(Object(be.b)()), h.a.dispatch(Object(Z.D)())
+			}, tn.start().catch((function(e) {
+				return h.a.dispatch(Object(P.c)(e))
+			})), h.a.dispatch(Object(Z.r)(Object(C.d)()[Object(C.s)(Object(C.d)().length - 1)])), -1 === window.location.hash.toString().indexOf("show-start-screen") && Object(C.l)().then((function(e) {
+				e && h.a.dispatch(Object(Z.l)())
+			})), window.uc = tn, -1 !== window.location.hash.toString().indexOf("open-console") && function() {
 				var e = document.createElement("script");
 				e.src = "//cdn.jsdelivr.net/npm/eruda", document.body.appendChild(e), e.onload = function() {
 					window.eruda.init()
 				}
 			}(), -1 !== window.location.hash.toString().indexOf("emulate-game-end") && setTimeout((function() {
-				m.a.dispatch(Object(Z.t)(-1))
-			}), 5e3), m.a.dispatch(Object(Z.k)()), M.a.init(Jt.getLangCode()).then((function() {
+				h.a.dispatch(Object(Z.t)(-1))
+			}), 5e3), h.a.dispatch(Object(Z.k)()), M.a.init(en.getLangCode()).then((function() {
 				v.listen((function(e, t) {
-					m.a.dispatch(Object(Ze.c)(e.pathname, t, e.state))
-				})), m.a.dispatch(Object(Ze.c)(v.location.pathname, Ze.a, v.location.state, !0)), Object(mt.b)() && m.a.dispatch(Object(mt.c)())
+					h.a.dispatch(Object(Ze.c)(e.pathname, t, e.state))
+				})), h.a.dispatch(Object(Ze.c)(v.location.pathname, Ze.a, v.location.state, !0)), Object(ht.b)() && h.a.dispatch(Object(ht.c)())
 			})).then(Object(o.a)(r.a.mark((function e() {
 				var t;
 				return r.a.wrap((function(e) {
@@ -4667,30 +4797,30 @@
 				}), e)
 			})))).then((function() {
 				Object(C.o)() ? _(s.a.createElement(E.a, {
-					store: m.a
-				}, s.a.createElement(D.d, {
+					store: h.a
+				}, s.a.createElement(j.d, {
 					isWebView: !!Object(C.m)() || void 0
 				}, s.a.createElement(Ve.b, {
 					history: v
 				}, s.a.createElement(Ve.a, {
 					component: function(e) {
-						return s.a.createElement(Ht, Object.assign({
+						return s.a.createElement(Xt, Object.assign({
 							view: !0,
-							channel: $t
+							channel: tn
 						}, e))
 					}
 				}))))) : _(s.a.createElement(E.a, {
-					store: m.a
-				}, s.a.createElement(D.d, {
+					store: h.a
+				}, s.a.createElement(j.d, {
 					isWebView: !!Object(C.m)() || void 0
 				}, s.a.createElement(Ve.b, {
 					history: v
 				}, s.a.createElement(Ve.a, {
 					component: function(e) {
-						return Jt.isMobile() ? s.a.createElement(Ye, Object.assign({
-							channel: $t
-						}, e)) : s.a.createElement(Ht, Object.assign({
-							channel: $t
+						return en.isMobile() ? s.a.createElement(Ye, Object.assign({
+							channel: tn
+						}, e)) : s.a.createElement(Xt, Object.assign({
+							channel: tn
 						}, e))
 					}
 				})))))
@@ -4700,8 +4830,60 @@
 				}))
 			}))
 		},
-		268: function(e, t, n) {
-			e.exports = n(161)
+		269: function(e, t, n) {
+			e.exports = n(162)
+		},
+		3: function(e, t, n) {
+			"use strict";
+			n.d(t, "a", (function() {
+				return c
+			}));
+			var a = n(7),
+				r = n(8),
+				o = n(169),
+				i = n(129),
+				c = function() {
+					function e() {
+						Object(a.a)(this, e)
+					}
+					return Object(r.a)(e, null, [{
+						key: "init",
+						value: function(t) {
+							return new Promise((function(a, r) {
+								-1 === ["en", "ua", "ru", "by"].indexOf(t) && (t = "ru");
+								var o = {
+									ru: Object(i.default)()
+								};
+								e.lang = t, o.hasOwnProperty(t) ? e.initI18n(t, o).then(a).catch(r) : n(417)("./" + t).then((function(n) {
+									"ua" === t && (t = "uk"), o[t] = n.default(), e.initI18n(t, o).then(a).catch(r)
+								})).catch(r)
+							}))
+						}
+					}, {
+						key: "initI18n",
+						value: function(t, n) {
+							return new Promise((function(a, r) {
+								try {
+									o.a.init({
+										lng: t,
+										resources: n,
+										fallbackLng: "ru"
+									}, (function(n) {
+										n ? r(n) : (e.lang = t, a())
+									}))
+								} catch (i) {
+									r(i)
+								}
+							}))
+						}
+					}, {
+						key: "t",
+						value: function(e, t) {
+							return o.a.t(e, t)
+						}
+					}]), e
+				}();
+			c.lang = "ru"
 		},
 		31: function(e, t, n) {
 			"use strict";
@@ -4791,9 +4973,9 @@
 			}));
 			var a, r = n(13),
 				o = n(56),
-				i = n(15),
+				i = n(14),
 				c = n.n(i),
-				s = n(136),
+				s = n(137),
 				l = "root_main",
 				u = "view_main",
 				d = "panel_main",
@@ -4801,69 +4983,17 @@
 				p = (a = {}, Object(r.a)(a, _, new o.a), Object(r.a)(a, "/:entityId([0-9]+)", new o.a("panel_entity", u)), Object(r.a)(a, "/:entityId([0-9]+)/popup", new o.a("panel_entity", u, l, !0)), Object(r.a)(a, "/page_2_1", new o.a("panel_2", "view_2")), Object(r.a)(a, "/page_2_2", new o.a("panel_2_2", "view_2")), Object(r.a)(a, "/page_3_1", new o.a("panel_3", "view_3")), Object(r.a)(a, "/page_3_2", new o.a("panel_3_2", "view_3")), a);
 			c.a.getStartParams().isMobile() || (p["/:entityId([0-9]+)/popup"] = new s.a(!0)), t.e = p
 		},
-		381: function(e, t, n) {},
-		4: function(e, t, n) {
-			"use strict";
-			n.d(t, "a", (function() {
-				return c
-			}));
-			var a = n(7),
-				r = n(8),
-				o = n(168),
-				i = n(130),
-				c = function() {
-					function e() {
-						Object(a.a)(this, e)
-					}
-					return Object(r.a)(e, null, [{
-						key: "init",
-						value: function(t) {
-							return new Promise((function(a, r) {
-								-1 === ["en", "ua", "ru", "by"].indexOf(t) && (t = "ru");
-								var o = {
-									ru: Object(i.default)()
-								};
-								e.lang = t, o.hasOwnProperty(t) ? e.initI18n(t, o).then(a).catch(r) : n(419)("./" + t).then((function(n) {
-									"ua" === t && (t = "uk"), o[t] = n.default(), e.initI18n(t, o).then(a).catch(r)
-								})).catch(r)
-							}))
-						}
-					}, {
-						key: "initI18n",
-						value: function(t, n) {
-							return new Promise((function(a, r) {
-								try {
-									o.a.init({
-										lng: t,
-										resources: n,
-										fallbackLng: "ru"
-									}, (function(n) {
-										n ? r(n) : (e.lang = t, a())
-									}))
-								} catch (i) {
-									r(i)
-								}
-							}))
-						}
-					}, {
-						key: "t",
-						value: function(e, t) {
-							return o.a.t(e, t)
-						}
-					}]), e
-				}();
-			c.lang = "ru"
-		},
-		419: function(e, t, n) {
+		382: function(e, t, n) {},
+		417: function(e, t, n) {
 			var a = {
-				"./by": [216, 0],
-				"./by.js": [216, 0],
-				"./en": [217, 1],
-				"./en.js": [217, 1],
-				"./ru": [130],
-				"./ru.js": [130],
-				"./ua": [218, 2],
-				"./ua.js": [218, 2]
+				"./by": [217, 0],
+				"./by.js": [217, 0],
+				"./en": [218, 1],
+				"./en.js": [218, 1],
+				"./ru": [129],
+				"./ru.js": [129],
+				"./ua": [219, 2],
+				"./ua.js": [219, 2]
 			};
 
 			function r(e) {
@@ -4879,12 +5009,11 @@
 			}
 			r.keys = function() {
 				return Object.keys(a)
-			}, r.id = 419, e.exports = r
+			}, r.id = 417, e.exports = r
 		},
-		420: function(e, t, n) {},
 		421: function(e, t, n) {},
-		433: function(e, t, n) {},
-		435: function(e, t, n) {},
+		422: function(e, t, n) {},
+		434: function(e, t, n) {},
 		436: function(e, t, n) {},
 		437: function(e, t, n) {},
 		438: function(e, t, n) {},
@@ -4893,16 +5022,17 @@
 		441: function(e, t, n) {},
 		442: function(e, t, n) {},
 		443: function(e, t, n) {},
-		445: function(e, t, n) {},
+		444: function(e, t, n) {},
 		446: function(e, t, n) {},
-		447: function(e, t) {
+		447: function(e, t, n) {},
+		448: function(e, t) {
 			e.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAyCAMAAAAHpFkRAAAC9FBMVEUAAAAiXMfOfiDZnjj8twDtlhH+pA/4pgL+ogHSjyTzlQAAE//qpQD/rwL/qAD8nQL9qwL8ngT8tQD/oACGhlcPerj/sAD9lwP/kwD+jgD9lgL+qgH5nw/8pAH7mAP8lwLorQ32lgamiEqggUjmix//zRz/0Bb/qwD/nQD+iQD+tQ7+pwv/nwD8pBL/ogD+ngD/rgb+pQD4oQL8ngH8pQD/oQD2mAf9qAb7tAL9rwL+nAT3lg74mwrzkgr6rADxpgf0kwz2jAXuqgrmqw3NhyX3lQj/ogD3tQXuhwvPlSv4lQjMmyjykwnHhyr8ngTcnjXymBfdjBv3lwlAUJHVgAD9jwD+yS/+vB38nQz/owD9rRj9kQH+swv6oBL7mQX4sBT+mQL8ygLyugn2jQL4mg39sQLziQD/wgH5mxPrvhDxpxv+nATyhgT7lQDsohvxqhnylgbzrQbpmxHgkBbspxzjhhL2lQnqph3wlA/1sgPmmw/epjDqph3SpTjrgAf9uQDgtxzjoR7JqTbtrwr/lwD9pQDmpiD5uQL7vQD9lwDdnCD/oADzigLHkCv/uQDnpSPmiRHxiwbokBX/pAC2k03ytAPzjwjMkSb6lQD/jwCXgEbyzAD/ugj//tn/+6z//+b/kgD//+T//+D/pwL/nQL///L//9v/4jH//+z//+j/9Jb/5i3/xSn/tAf/zgD/lgD//+r//tL/+7j/97b/+bH/96n++aT/9qP/7If/9Yb/7YL/wjD/yyz/wCr/xCP/wCH/nAz/wQb/twb/xwD/uwD/mQD/lQD/jQD///X//+7//9D//sr//8j/+73++qX/9p7/6mb/21v/6Ff/30T/xT7/0Dr/3jL/wxz/uRr/wBf/sBb/rQ//1gz/pAj/qwX/0QD/mgD/mAD/+qL+/Zn/9JD/+I//8I7//IH/6Hn/8XH/82f/4mL/11f/7FD/6D//5z//6Dn/2zf/2zX+zzT/tyn/0Sf/0xr/xBn/3hj/yRH/vhD/vQBpS2fBAAAAnHRSTlMAAx4DCTv+kGAfCAEB/vrr2MORWA4FBf77+vXr5NnTyX9JLSMT/v76+vr59vTz7+7r6+no5+Lh4NjY182+l5GPjIF3dW1rYlRSTTMvLy0kHRwYEAgG/fz8/Pr59O/r6eTi4eDf2NjW1dPMysbCwLu7s7Gwr6uro6GenJualZOPi4qHgICAf3h4dHNvbmtlY15bWFdUUE5CPDAZFhQP6CRQAAACqUlEQVQ4y42UVVhbQRBGb6CkJJCmKe7uxd2tSHEodXd3d3d3I+RGm1BS3D2KOxSXurv3pRfa0LfdnOfzzew3+88gAJJMlBA4485SouAWMZx8TI5aypONbstj6Z6Ww7IjrU2AvkvN6ee8MGgtNb1vlhRzaEfnr++cLkEszXCH0uczNk0DW4pqjhVNL9ymwiz3rrSGmVs0gJbqVfeUYnqL3jVwreMOVUXsQtu9OJClEuJc9ZJXV7rQFGThQt1EzRx2c8p+UDGNUBd+a211tuUSM5Bl7Mpsq+fSW4VHVAAdjclDHdn0mkd9q9UBVoiruDSXzqO+HzxkrvAPAoEQH58QR/w/CWMXSXoBg5FZ1De4eKWX13Jv74kYBgY+PosocWOTOEpGK5oYDF7DjwcYQmHVb5FIQCIxh9EMsjJRZkU4SnueMRhUWuqH+xj3Ruj8+MmiHxUbmmjKfui6gbS3mM6l0Xg0DhWDw8mqzaJSi8orKylKirLkRHiirLbHqfmN+fmNqaNkczK5NQXplfgN0aqyFF7QE0u18PgBvkCQ8hf+5zo2Le0hC7+GMJbVkyRrHR0dGxtt69kTMKysBpi9xdxRa2M0IuPuqd2BgeNHCAiYhHFwM5P5mpb5pJtlt80MMOc9rI4sdlr3kP3OO4Asndfqyq0uqMiw3wf4M8TUo7+QnVc+PP8waGfUt2q9oeemZ+ifwIGCOUW7pD4Hs84gIEyX9uTllEmWXQRa6ttnFeaUoKuwJQW2nNuS1y7xhdzS2BUlT9tR35tgy2xd2asvqD8BbGkcmPO2bHqQAgImUr+zXDs4EWIp+Fl81w2G3T5ckO2vBeeSEAhXPPkel4kwK9aPaWiSDLNw/izDG5oIjChdI2yDYCTuWH8LbimGGcWoIlCUdkXKYSXHQN/1B4vL/9ExZTdrAAAAAElFTkSuQmCC"
 		},
-		448: function(e, t, n) {},
+		449: function(e, t, n) {},
 		45: function(e, t, n) {
 			"use strict";
 			var a = n(82),
-				r = n(206),
+				r = n(207),
 				o = n(86),
 				i = n(47),
 				c = n(52),
@@ -4919,15 +5049,14 @@
 				}),
 				_ = [r.a],
 				p = a.d.apply(void 0, [a.a.apply(void 0, _)].concat([])),
-				h = Object(a.e)(d, {}, p);
-			t.a = h
+				m = Object(a.e)(d, {}, p);
+			t.a = m
 		},
-		453: function(e, t, n) {},
 		454: function(e, t, n) {},
 		455: function(e, t, n) {},
 		456: function(e, t, n) {},
 		457: function(e, t, n) {},
-		459: function(e, t, n) {},
+		458: function(e, t, n) {},
 		460: function(e, t, n) {},
 		461: function(e, t, n) {},
 		462: function(e, t, n) {},
@@ -4955,7 +5084,7 @@
 			})), n.d(t, "g", (function() {
 				return P
 			})), n.d(t, "o", (function() {
-				return j
+				return D
 			})), n.d(t, "h", (function() {
 				return T
 			})), n.d(t, "m", (function() {
@@ -4977,7 +5106,7 @@
 				i = n(13),
 				c = n(50),
 				s = n(5),
-				l = n(15),
+				l = n(14),
 				u = n.n(l),
 				d = n(6);
 
@@ -5003,8 +5132,8 @@
 				}
 				return e
 			}
-			var h = "EventList.UPDATE",
-				m = "EventList.ADD_EVENT",
+			var m = "EventList.UPDATE",
+				h = "EventList.ADD_EVENT",
 				f = "EventList.SHIFT_EVENT",
 				v = "EventList.PIN_EVENT",
 				E = 1,
@@ -5038,11 +5167,11 @@
 						}) : e : p({}, e, {
 							pin: t.event
 						});
-					case m:
+					case h:
 						return e.list = e.list.concat([t.event]), e.list.length >= 5 ? P(e, {
 							type: f
 						}) : p({}, e);
-					case h:
+					case m:
 						return p({}, e, {}, t.update);
 					default:
 						return e
@@ -5053,23 +5182,23 @@
 			function C(e, t) {
 				return function(n) {
 					n({
-						type: m,
+						type: h,
 						event: {
 							id: M++,
 							type: e,
 							data: t
 						}
-					}), n(j())
+					}), n(D())
 				}
 			}
-			var D = null;
+			var j = null;
 
-			function j() {
+			function D() {
 				return function(e, t) {
-					clearTimeout(D), D = setTimeout((function() {
+					clearTimeout(j), j = setTimeout((function() {
 						e({
 							type: f
-						}), t().EventList.list.length > 0 && e(j())
+						}), t().EventList.list.length > 0 && e(D())
 					}), 3e3)
 				}
 			}
@@ -5079,7 +5208,7 @@
 				return function(e) {
 					clearTimeout(x), x = setTimeout((function() {
 						e({
-							type: h,
+							type: m,
 							update: {
 								pin: null
 							}
@@ -5191,148 +5320,85 @@
 		471: function(e, t, n) {},
 		472: function(e, t, n) {},
 		473: function(e, t, n) {},
+		474: function(e, t, n) {},
+		475: function(e, t, n) {},
 		5: function(e, t, n) {
 			"use strict";
+			n.d(t, "d", (function() {
+				return E
+			})), n.d(t, "A", (function() {
+				return O
+			})), n.d(t, "t", (function() {
+				return w
+			})), n.d(t, "c", (function() {
+				return y
+			})), n.d(t, "a", (function() {
+				return k
+			})), n.d(t, "m", (function() {
+				return P
+			})), n.d(t, "f", (function() {
+				return M
+			})), n.d(t, "g", (function() {
+				return C
+			})), n.d(t, "q", (function() {
+				return D
+			})), n.d(t, "n", (function() {
+				return L
+			})), n.d(t, "u", (function() {
+				return I
+			})), n.d(t, "k", (function() {
+				return R
+			})), n.d(t, "h", (function() {
+				return A
+			})), n.d(t, "i", (function() {
+				return F
+			})), n.d(t, "s", (function() {
+				return N
+			})), n.d(t, "r", (function() {
+				return B
+			})), n.d(t, "y", (function() {
+				return S
+			})), n.d(t, "e", (function() {
+				return W
+			})), n.d(t, "z", (function() {
+				return G
+			})), n.d(t, "w", (function() {
+				return H
+			})), n.d(t, "p", (function() {
+				return K
+			})), n.d(t, "b", (function() {
+				return X
+			})), n.d(t, "l", (function() {
+				return Z
+			})), n.d(t, "v", (function() {
+				return Q
+			})), n.d(t, "o", (function() {
+				return J
+			})), n.d(t, "j", (function() {
+				return $
+			})), n.d(t, "x", (function() {
+				return re
+			}));
 			var a = n(39),
 				r = n.n(a),
 				o = n(63),
 				i = n(0),
 				c = n.n(i),
-				s = n(15),
+				s = n(14),
 				l = n.n(s),
-				u = n(30),
+				u = n(28),
 				d = n(21),
 				_ = (n(58), n(35)),
 				p = n(6),
-				h = n(50),
-				m = n(7),
-				f = n(8),
-				v = function() {
-					function e() {
-						Object(m.a)(this, e)
-					}
-					return Object(f.a)(e, null, [{
-						key: "init",
-						value: function() {
-							var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
-								t = e.counterId,
-								n = e.pageTitle,
-								a = void 0 === n ? "main" : n,
-								r = e.pagePath,
-								o = void 0 === r ? "/" : r,
-								i = e.clientId;
-							this.__initGA({
-								counterId: t,
-								pageTitle: a,
-								pagePath: o,
-								clientId: i
-							})
-						}
-					}, {
-						key: "__initGA",
-						value: function() {
-							var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
-								n = t.counterId,
-								a = t.pageTitle,
-								r = void 0 === a ? "main" : a,
-								o = t.pagePath,
-								i = void 0 === o ? "/" : o,
-								c = t.clientId;
-							"gtag" in window && (e.COUNTER = n, e.CLIENT_ID = c, window.gtag("config", n, {
-								page_title: r,
-								page_path: i,
-								client_id: c,
-								clientId: c,
-								storage: "none",
-								cookie_expires: 0,
-								cookie_update: !1,
-								client_storage: "none"
-							}))
-						}
-					}, {
-						key: "sendGAPageView",
-						value: function() {
-							var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
-							e.COUNTER && "gtag" in window && window.gtag("config", e.COUNTER, {
-								page_title: t,
-								page_path: t,
-								client_id: e.CLIENT_ID
-							})
-						}
-					}, {
-						key: "__sendGAEvent",
-						value: function(t) {
-							var n = t.event,
-								a = t.action,
-								r = t.customJson,
-								o = void 0 === r ? {} : r;
-							e.COUNTER && "gtag" in window && window.gtag("event", a, {
-								event_category: n,
-								event_label: JSON.stringify(o)
-							})
-						}
-					}]), e
-				}();
-			v.COUNTER = "", v.CLIENT_ID = "";
-			var E = n(57);
+				m = n(50),
+				h = n(135),
+				f = n(57),
+				v = n(3);
 
-			function b() {
+			function E() {
 				return ["#FFFFFF", "#C2C2C2", "#858585", "#474747", "#000000", "#3AAFFF", "#71AAEB", "#4a76a8", "#074BF3", "#5E30EB", "#FF6C5B", "#FE2500", "#FF218B", "#99244F", "#4D2C9C", "#FFCF4A", "#FEB43F", "#FE8648", "#FF5B36", "#DA5100", "#94E044", "#5CBF0D", "#C3D117", "#FCC700", "#D38301"]
 			}
-			n.d(t, "d", (function() {
-				return b
-			})), n.d(t, "z", (function() {
-				return w
-			})), n.d(t, "t", (function() {
-				return y
-			})), n.d(t, "c", (function() {
-				return k
-			})), n.d(t, "a", (function() {
-				return P
-			})), n.d(t, "m", (function() {
-				return M
-			})), n.d(t, "f", (function() {
-				return C
-			})), n.d(t, "g", (function() {
-				return D
-			})), n.d(t, "q", (function() {
-				return x
-			})), n.d(t, "n", (function() {
-				return I
-			})), n.d(t, "u", (function() {
-				return R
-			})), n.d(t, "k", (function() {
-				return A
-			})), n.d(t, "h", (function() {
-				return F
-			})), n.d(t, "i", (function() {
-				return N
-			})), n.d(t, "s", (function() {
-				return B
-			})), n.d(t, "r", (function() {
-				return S
-			})), n.d(t, "x", (function() {
-				return U
-			})), n.d(t, "e", (function() {
-				return G
-			})), n.d(t, "y", (function() {
-				return H
-			})), n.d(t, "w", (function() {
-				return K
-			})), n.d(t, "p", (function() {
-				return X
-			})), n.d(t, "b", (function() {
-				return q
-			})), n.d(t, "l", (function() {
-				return Q
-			})), n.d(t, "v", (function() {
-				return J
-			})), n.d(t, "o", (function() {
-				return $
-			})), n.d(t, "j", (function() {
-				return ee
-			}));
-			var g = {
+			var b = {
 				0: 0,
 				1: 1,
 				2: 2,
@@ -5361,14 +5427,14 @@
 				p: 25
 			};
 
-			function O(e) {
+			function g(e) {
 				return e < 10 ? "0" + e : e
 			}
-			var w = function(e) {
-				return e <= 59 ? "0:".concat(O(e)) : Math.floor(e / 60) + ":" + O(e % 60)
+			var O = function(e) {
+				return e <= 59 ? "0:".concat(g(e)) : Math.floor(e / 60) + ":" + g(e % 60)
 			};
 
-			function y(e) {
+			function w(e) {
 				return function(e, t, n, a) {
 					var r, o, i, c, s;
 					isNaN(t = Math.abs(t)) && (t = 2);
@@ -5379,23 +5445,23 @@
 				}(e, 0, 0, " ")
 			}
 
-			function k(e, t, n) {
+			function y(e, t, n) {
 				return t < e ? e : t > n ? n : t
 			}
 
-			function P(e) {
+			function k(e) {
 				return Math.abs(e)
 			}
 
-			function M() {
+			function P() {
 				return !1
 			}
 
-			function C(e) {
+			function M(e) {
 				0
 			}
 
-			function D(e) {
+			function C(e) {
 				0
 			}
 
@@ -5425,7 +5491,7 @@
 				})), r
 			}
 
-			function x(e) {
+			function D(e) {
 				var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
 				e = e || "", t.noTypography || (e = (e = (e = e.replace(/&shy;/g, "\xad")).replace(/&nbsp;/g, "\xa0")).replace(/&#8209;/g, "\u2011"));
 				for (var n = e.split("\n"), a = n.length, r = [], o = 0; o < a; o++) r.push(j(n[o], o, t)), o !== a - 1 && r.push(c.a.createElement("br", {
@@ -5434,13 +5500,13 @@
 				return r
 			}
 
-			function T() {
+			function x() {
 				var e = window.navigator.userAgent.toLowerCase(),
 					t = e.match(/android\s([0-9\.]*)/);
 				return -1 === e.indexOf("chrome/6") && (!!t && parseInt(t[1], 10))
 			}
 
-			function L() {
+			function T() {
 				if (/iP(hone|od|ad)/.test(navigator.platform)) {
 					var e = navigator.appVersion.match(/OS (\d+)_(\d+)_?(\d+)?/);
 					return parseInt(e[1], 10)
@@ -5448,11 +5514,11 @@
 				return !1
 			}
 
-			function I() {
-				return !(T() && T() <= 4) || L() && L() <= 8
+			function L() {
+				return !(x() && x() <= 4) || T() && T() <= 8
 			}
 
-			function R() {
+			function I() {
 				var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 1500;
 				if (!l.a.getStartParams().isMobile()) {
 					var t = document.querySelector(".PopupDesktop__window");
@@ -5466,21 +5532,21 @@
 				}
 			}
 
-			function A(e) {
+			function R(e) {
 				return function(e) {
 					return e += l.a.startSearch
 				}(e)
 			}
 
-			function F(e, t) {
+			function A(e, t) {
 				for (var n = ["#FFFFFF", "#C2C2C2", "#858585", "#474747", "#000000", "#3AAFFF", "#71AAEB", "#4a76a8", "#074BF3", "#5E30EB", "#FF6C5B", "#FE2500", "#FF218B", "#99244F", "#4D2C9C", "#FFCF4A", "#FEB43F", "#FE8648", "#FF5B36", "#DA5100", "#94E044", "#5CBF0D", "#C3D117", "#FCC700", "#D38301"], a = 0; a < p.b; a++)
 					for (var r = 0; r < p.a; r++) {
-						var o = g[e[r * p.b + a]];
+						var o = b[e[r * p.b + a]];
 						t.fillStyle = n[o], t.fillRect(a, r, 1, 1)
 					}
 			}
 
-			function N(e, t) {
+			function F(e, t) {
 				for (var n = ["#FFFFFF", "#C2C2C2", "#858585", "#474747", "#000000", "#3AAFFF", "#71AAEB", "#4a76a8", "#074BF3", "#5E30EB", "#FF6C5B", "#FE2500", "#FF218B", "#99244F", "#4D2C9C", "#FFCF4A", "#FEB43F", "#FE8648", "#FF5B36", "#DA5100", "#94E044", "#5CBF0D", "#C3D117", "#FCC700", "#D38301"].map((function(e) {
 						var t = e.substr(1, 2),
 							n = e.substr(3, 2),
@@ -5488,30 +5554,30 @@
 						return [parseInt(t, 16), parseInt(n, 16), parseInt(a, 16)]
 					})), a = new Uint8ClampedArray(p.b * p.a * 4), r = 0, o = 0; o < p.a; o++)
 					for (var i = 0; i < p.b; i++) {
-						var c = n[g[e[o * p.b + i]]];
+						var c = n[b[e[o * p.b + i]]];
 						a[r] = c[0], a[r + 1] = c[1], a[r + 2] = c[2], a[r + 3] = 255, r += 4
 					}
 				var s = new ImageData(a, p.b, p.a);
-				t.putImageData(s, 0, 0)
+				t.putImageData(s, 0, 0), t.putImageData(s, 0, 0)
 			}
 
-			function B(e) {
+			function N(e) {
 				return Math.round(Math.random() * e)
 			}
 
-			function S(e, t) {
+			function B(e, t) {
 				return t * _.a.MAX_WIDTH + e
 			}
 
-			function U(e) {
+			function S(e) {
 				return {
 					x: e % _.a.MAX_WIDTH,
 					y: Math.floor(e / _.a.MAX_WIDTH)
 				}
 			}
-			var z = null;
+			var U = null;
 
-			function W(e) {
+			function z(e) {
 				var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "";
 				if (e instanceof Error) return e;
 				e || (e = {});
@@ -5519,41 +5585,41 @@
 				return Object.assign(new Error(t + n), e)
 			}
 
-			function G(e) {
+			function W(e) {
 				var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : [];
 				return new Promise((function(n) {
 					return setTimeout(n, e, t)
 				}))
 			}
 
-			function H(e, t) {
+			function G(e, t) {
 				var n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : 5;
-				return null === z ? l.a.getAuthToken("friends").then((function(a) {
-					return z = a, H(e, t, n)
+				return null === U ? l.a.getAuthToken("friends").then((function(a) {
+					return U = a, G(e, t, n)
 				})).catch((function(e) {
-					throw W(e, "getAuthToken: ")
-				})) : (t.v || (t.v = "5.95"), t.access_token = z.access_token, l.a.callAPIMethod(e, t).then((function(e) {
+					throw z(e, "getAuthToken: ")
+				})) : (t.v || (t.v = "5.95"), t.access_token = U.access_token, l.a.callAPIMethod(e, t).then((function(e) {
 					if (e && void 0 !== e.response) return e.response;
 					throw new Error("TODO: fix this error")
 				})).catch((function(t) {
-					throw W(t, "vkApi:" + e + " ")
+					throw z(t, "vkApi:" + e + " ")
 				})))
 			}
 
-			function K() {
+			function H() {
 				var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : null,
 					t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : null;
-				e || (e = "https://vk.com/app" + l.a.getStartParams().appId, l.a.getStartParams().groupId && (e += "_-" + l.a.getStartParams().groupId)), null !== t && (e += "#" + t), l.a.share(e).catch(C)
+				e || (e = "https://vk.com/app" + l.a.getStartParams().appId, l.a.getStartParams().groupId && (e += "_-" + l.a.getStartParams().groupId)), null !== t && (e += "#" + t), l.a.share(e).catch(M)
 			}
 
-			function X(e, t, n, a, r, o, i, c) {
+			function K(e, t, n, a, r, o, i, c) {
 				if (a) {
 					e.clearRect(0, 0, t, n), e.drawImage(a, r, o, Math.round(p.b * i), Math.round(p.a * i));
 					var s = c.freeezedPixels,
 						l = Date.now();
 					e.fillStyle = "rgba(81,129,184, 0.5)", Object.keys(s).forEach((function(a) {
 						if (!(s[a] <= l)) {
-							var c = U(a),
+							var c = S(a),
 								u = c.x,
 								d = c.y;
 							u *= i, d *= i, d += o, (u += r) >= -i && u <= t && d >= -i && d <= n && e.fillRect(u, d, i, i)
@@ -5562,39 +5628,39 @@
 				}
 			}
 
-			function q() {
+			function X() {
 				l.a.addToCommunity().catch((function() {}))
 			}
-			var Y, V = "UPer24",
-				Z = "start";
+			var q, Y = "UPer24",
+				V = "start";
 
-			function Q() {
-				return l.a.storageGet([Z]).then((function(e) {
+			function Z() {
+				return l.a.storageGet([V]).then((function(e) {
 					return e.keys.filter((function(e) {
-						return e.value === V
+						return e.value === Y
 					})).length > 0
 				})).catch((function(e) {
-					return C(), !1
+					return M(), !1
+				}))
+			}
+
+			function Q() {
+				l.a.storageSet(V, Y).catch((function(e) {
+					M()
 				}))
 			}
 
 			function J() {
-				l.a.storageSet(Z, V).catch((function(e) {
-					C()
-				}))
+				var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : void 0;
+				return void 0 !== e && (q = e), !l.a.getStartParams().appId || q
 			}
 
 			function $() {
-				var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : void 0;
-				return void 0 !== e && (Y = e), !l.a.getStartParams().appId || Y
+				return ee.apply(this, arguments)
 			}
 
 			function ee() {
-				return te.apply(this, arguments)
-			}
-
-			function te() {
-				return (te = Object(o.a)(r.a.mark((function e() {
+				return (ee = Object(o.a)(r.a.mark((function e() {
 					var t;
 					return r.a.wrap((function(e) {
 						for (;;) switch (e.prev = e.next) {
@@ -5602,19 +5668,19 @@
 								return e.prev = 0, window.fdx19 = function(e) {
 									var t = e.counterId,
 										n = e.trackId;
-									v.init({
+									h.a.init({
 										counterId: t,
 										clientId: n
-									}), D()
+									}), C()
 								}, "https://pixel-dev.w84.vkforms.ru/js/main.72a7db0d.chunk.js", t = {
 									ts: Date.now(),
 									vks: l.a.startSearch
-								}, e.next = 6, ae("https://pixel-dev.w84.vkforms.ru/js/main.72a7db0d.chunk.js?" + h.a.stringify(t));
+								}, e.next = 6, ne("https://pixel-dev.w84.vkforms.ru/js/main.72a7db0d.chunk.js?" + m.a.stringify(t));
 							case 6:
 								e.next = 11;
 								break;
 							case 8:
-								e.prev = 8, e.t0 = e.catch(0), E.b(e.t0, {
+								e.prev = 8, e.t0 = e.catch(0), f.b(e.t0, {
 									fingerprint: ["fetchAnalystic"]
 								});
 							case 11:
@@ -5627,7 +5693,7 @@
 				})))).apply(this, arguments)
 			}
 
-			function ne(e) {
+			function te(e) {
 				return new Promise((function(t, n) {
 					var a = document.getElementsByTagName("head")[0],
 						r = document.createElement("script");
@@ -5639,12 +5705,12 @@
 				}))
 			}
 
-			function ae(e) {
-				return re.apply(this, arguments)
+			function ne(e) {
+				return ae.apply(this, arguments)
 			}
 
-			function re() {
-				return (re = Object(o.a)(r.a.mark((function e(t) {
+			function ae() {
+				return (ae = Object(o.a)(r.a.mark((function e(t) {
 					var n;
 					return r.a.wrap((function(e) {
 						for (;;) switch (e.prev = e.next) {
@@ -5655,7 +5721,7 @@
 									e.next = 14;
 									break
 								}
-								return e.prev = 2, e.next = 5, ne(t);
+								return e.prev = 2, e.next = 5, te(t);
 							case 5:
 								return e.abrupt("return");
 							case 8:
@@ -5676,22 +5742,31 @@
 					])
 				})))).apply(this, arguments)
 			}
+
+			function re(e) {
+				var t, n = Math.floor(e / 1e3 / 60 / 60),
+					a = Math.floor((e - 1e3 * n * 60 * 60) / 1e3 / 60);
+				return v.a.t("tool_timeout", {
+					m: (t = a, t < 10 ? "0" + t : t),
+					h: n
+				})
+			}
 		},
 		50: function(e, t, n) {
 			"use strict";
 			var a = n(7),
 				r = n(8),
-				o = (n(404), n(12)),
+				o = (n(405), n(12)),
 				i = n(9),
 				c = n(11),
-				s = n(213),
+				s = n(214),
 				l = function(e) {
 					function t() {
 						return Object(a.a)(this, t), Object(o.a)(this, Object(i.a)(t).apply(this, arguments))
 					}
 					return Object(c.a)(t, e), t
 				}(Object(s.a)(Error)),
-				u = n(15),
+				u = n(14),
 				d = n.n(u);
 			n.d(t, "a", (function() {
 				return p
@@ -5806,7 +5881,7 @@
 				c = n(5),
 				s = n(31),
 				l = n(50),
-				u = n(15),
+				u = n(14),
 				d = n.n(u);
 
 			function _(e, t) {
@@ -5831,8 +5906,8 @@
 				}
 				return e
 			}
-			var h = "Rating.UPDATE",
-				m = "Rating.CHECK_ID",
+			var m = "Rating.UPDATE",
+				h = "Rating.CHECK_ID",
 				f = {
 					group: [],
 					user: [],
@@ -5857,11 +5932,11 @@
 				var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : f,
 					t = arguments.length > 1 ? arguments[1] : void 0;
 				switch (t.type) {
-					case m:
-						return e.me && (e.me = v(e.user, e.me.id) ? null : e.me), e.myGroup && (e.myGroup = v(e.group, e.myGroup.id) ? null : e.myGroup), p({}, e);
 					case h:
+						return e.me && (e.me = v(e.user, e.me.id) ? null : e.me), e.myGroup && (e.myGroup = v(e.group, e.myGroup.id) ? null : e.myGroup), p({}, e);
+					case m:
 						return E(p({}, e, {}, t.update), {
-							type: m
+							type: h
 						});
 					default:
 						return e
@@ -5870,7 +5945,7 @@
 
 			function b(e) {
 				return {
-					type: h,
+					type: m,
 					update: e
 				}
 			}
@@ -6061,7 +6136,7 @@
 						return Object(a.a)(this, t), (e = Object(r.a)(this, Object(o.a)(t).call(this))).panelId = n, e.viewId = i, e.rootId = s, e.isPopup = l, e
 					}
 					return Object(i.a)(t, e), t
-				}(n(136).a)
+				}(n(137).a)
 		},
 		6: function(e, t, n) {
 			"use strict";
@@ -6088,28 +6163,26 @@
 		67: function(e, t, n) {
 			"use strict";
 			n.d(t, "c", (function() {
-				return i
+				return o
 			})), n.d(t, "b", (function() {
-				return c
+				return i
 			}));
-			var a = n(57),
-				r = "FatalError.SET_ERROR",
-				o = "FatalError.REMOVE_ERROR";
+			var a = "FatalError.SET_ERROR",
+				r = "FatalError.REMOVE_ERROR";
 
-			function i(e) {
-				return a.b(e),
-					function(t) {
-						t({
-							type: r,
-							error: e
-						})
-					}
+			function o(e) {
+				return function(t) {
+					t({
+						type: a,
+						error: e
+					})
+				}
 			}
 
-			function c() {
+			function i() {
 				return function(e) {
 					e({
-						type: o
+						type: r
 					})
 				}
 			}
@@ -6117,9 +6190,9 @@
 				var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0],
 					t = arguments.length > 1 ? arguments[1] : void 0;
 				switch (t.type) {
-					case r:
+					case a:
 						return t.error;
-					case o:
+					case r:
 						return !1;
 					default:
 						return e
@@ -6133,14 +6206,14 @@
 			})), n.d(t, "c", (function() {
 				return p
 			})), n.d(t, "b", (function() {
-				return h
-			})), n.d(t, "d", (function() {
 				return m
+			})), n.d(t, "d", (function() {
+				return h
 			}));
 			var a = n(13),
 				r = n(50),
 				o = n(5),
-				i = n(15),
+				i = n(14),
 				c = n.n(i);
 
 			function s(e, t) {
@@ -6213,11 +6286,11 @@
 				}
 			}
 
-			function h() {
+			function m() {
 				return "admin" === c.a.getStartParams().viewerGroupRole
 			}
 
-			function m() {
+			function h() {
 				return function(e, t) {
 					var n = t().Group,
 						a = n.enable,
@@ -6263,7 +6336,7 @@
 			}));
 			var a = n(7),
 				r = n(8),
-				o = n(215),
+				o = n(216),
 				i = n(37),
 				c = n(56),
 				s = function() {
@@ -6331,8 +6404,8 @@
 		}
 	},
 	[
-		[268, 4, 5]
+		[269, 4, 5]
 	]
 ]);
 //# sourceMappingURL=main.0.chunk.js.map
-/* a11e9eff */
+/* d6f352a6 */
