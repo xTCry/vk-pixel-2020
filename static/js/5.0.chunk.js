@@ -2765,7 +2765,7 @@
 		Object({
 			NODE_ENV: "production",
 			PUBLIC_URL: ".",
-			REACT_APP_VERSION: "2.0.0@master-5e79cc0",
+			REACT_APP_VERSION: "2.0.0@master-c4ee671",
 			REACT_APP_BACKUEND_URL: "https://pixel-dev.w84.vkforms.ru"
 		}).VKUI_VERSION
 	}, function(e, t, n) {
@@ -26353,4 +26353,4 @@
 	}]
 ]);
 //# sourceMappingURL=5.0.chunk.js.map
-/* bf7d32c2 */
+/* 7e4bb8f4 */

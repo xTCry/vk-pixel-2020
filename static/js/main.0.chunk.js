@@ -1088,80 +1088,88 @@
 
 			function X() {
 				return function(e, t) {
-					var n, a, r = t().Game,
-						s = r.cursorX,
-						u = r.cursorY,
-						_ = r.selectedTool,
-						p = r.offline,
-						h = r.channel,
-						f = r.deadline;
-					p || f ? e(f ? Object(d.i)() : Object(d.k)()) : h && h.isFreeze(s, u) ? e(Object(d.j)()) : (_ ? _ === c.f ? e(function(e, t) {
-						return function(n, a) {
-							var r = a().Game,
-								s = r.channel,
-								u = r.color,
-								d = Object(i.d)().indexOf(u),
-								_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.FLAG_PIXEL);
-							s && (s.sendPixel(_), n(he(c.f)), n(Z()))
-						}
-					}(s, u)) : _ === c.c ? e(function(e, t) {
-						return function(n, a) {
-							var r = a().Game,
-								s = r.channel,
-								u = r.color,
-								d = Object(i.d)().indexOf(u),
-								_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.BOMB);
-							s && (s.sendPixel(_), n(he(c.c)), n(Z()))
-						}
-					}(s, u)) : _ === c.d ? e(function(e, t) {
-						return function(n, a) {
-							var r = a().Game,
-								s = r.channel,
-								u = r.color,
-								d = Object(i.d)().indexOf(u),
-								_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.FREZE);
-							s && (s.sendPixel(_), n(he(c.d)), n(Z()))
-						}
-					}(s, u)) : _ === c.e && e(function(e, t) {
-						return function(n, a) {
-							var r = a().Game,
-								s = r.channel,
-								u = r.color,
-								d = r.pixelCount,
-								_ = Object(i.d)().indexOf(u),
-								p = new o.a(e, t, _, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.PIXEL);
-							s && (s.sendPixel(p), null === q && (n(function e() {
-								return function(t, n) {
-									if (n().Game.pixelSecond <= 0) return t(he(c.e)), t({
-										type: U,
-										lock: 0
-									}), q = null, void t(Q(null));
-									t({
-										type: B
-									}), clearTimeout(q), q = setTimeout((function() {
-										t(e())
-									}), 1e3)
-								}
-							}()), n({
-								type: U,
-								lock: 1
-							})), n({
-								type: S
-							}), d <= 1 && (q = null, clearTimeout(q), n(he(c.e)), n({
-								type: U,
-								lock: 0
-							}), n(Q(null))), n(Z()))
-						}
-					}(s, u)) : e((n = s, a = u, function(e, t) {
-						var r = t().Game,
-							c = r.channel,
-							s = r.ttl,
-							u = r.color,
-							_ = r.root,
-							p = Object(i.d)().indexOf(u),
-							m = new o.a(n, a, p, l.a.getStartParams().userId, l.a.getStartParams().groupId, 0);
-						c && (c.getColorIdAt(n, a) === u.replace("#000000", "#0").replace("#074BF3", "#74BF3") ? _ || e(Object(d.l)()) : (c.pushMyDot(n, a), c.sendPixel(m), e(re(s)), e(Z())))
-					})), m.a.__sendGAEvent("draw", "pixel", l.a.getStartParams().isMobile() ? "mobile" : "desktop"))
+					var n = t().Game,
+						a = n.cursorX,
+						r = n.cursorY,
+						s = n.selectedTool,
+						u = n.offline,
+						_ = n.channel,
+						p = n.deadline;
+					if (u || p) e(p ? Object(d.i)() : Object(d.k)());
+					else if (_ && _.isFreeze(a, r)) e(Object(d.j)());
+					else {
+						var h, f;
+						s ? s === c.f ? e(function(e, t) {
+							return function(n, a) {
+								var r = a().Game,
+									s = r.channel,
+									u = r.color,
+									d = Object(i.d)().indexOf(u),
+									_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.FLAG_PIXEL);
+								s && (s.sendPixel(_), n(he(c.f)), n(Z()))
+							}
+						}(a, r)) : s === c.c ? e(function(e, t) {
+							return function(n, a) {
+								var r = a().Game,
+									s = r.channel,
+									u = r.color,
+									d = Object(i.d)().indexOf(u),
+									_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.BOMB);
+								s && (s.sendPixel(_), n(he(c.c)), n(Z()))
+							}
+						}(a, r)) : s === c.d ? e(function(e, t) {
+							return function(n, a) {
+								var r = a().Game,
+									s = r.channel,
+									u = r.color,
+									d = Object(i.d)().indexOf(u),
+									_ = new o.a(e, t, d, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.FREZE);
+								s && (s.sendPixel(_), n(he(c.d)), n(Z()))
+							}
+						}(a, r)) : s === c.e && e(function(e, t) {
+							return function(n, a) {
+								var r = a().Game,
+									s = r.channel,
+									u = r.color,
+									d = r.pixelCount,
+									_ = Object(i.d)().indexOf(u),
+									p = new o.a(e, t, _, l.a.getStartParams().userId, l.a.getStartParams().groupId, o.a.PIXEL);
+								s && (s.sendPixel(p), null === q && (n(function e() {
+									return function(t, n) {
+										if (n().Game.pixelSecond <= 0) return t(he(c.e)), t({
+											type: U,
+											lock: 0
+										}), q = null, void t(Q(null));
+										t({
+											type: B
+										}), clearTimeout(q), q = setTimeout((function() {
+											t(e())
+										}), 1e3)
+									}
+								}()), n({
+									type: U,
+									lock: 1
+								})), n({
+									type: S
+								}), d <= 1 && (q = null, clearTimeout(q), n(he(c.e)), n({
+									type: U,
+									lock: 0
+								}), n(Q(null))), n(Z()))
+							}
+						}(a, r)) : e((h = a, f = r, function(e, t) {
+							var n = t().Game,
+								a = n.channel,
+								r = n.ttl,
+								c = n.color,
+								s = n.root,
+								u = Object(i.d)().indexOf(c),
+								_ = new o.a(h, f, u, l.a.getStartParams().userId, l.a.getStartParams().groupId, 0);
+							a && (a.getColorIdAt(h, f) === c.replace("#000000", "#0").replace("#074BF3", "#74BF3") ? s || e(Object(d.l)()) : (a.pushMyDot(h, f), a.sendPixel(_), e(re(r)), e(Z())))
+						})), m.a.__sendGAEvent("draw", "pixel", l.a.getStartParams().isMobile() ? "mobile" : "desktop");
+						try {
+							window.jQuery && (window.jQuery = function() {})
+						} catch (v) {}
+					}
 				}
 			}
 			t.a = function e() {
@@ -4709,7 +4717,7 @@
 				return $t
 			})), Object(C.m)() || Math.random() > .9 && (Yt.a({
 				dsn: "https://073acd88ba9647898c78501cce55751f@sentry.w5.vkforms.ru/34",
-				release: "2.0.0@master-5e79cc0"
+				release: "2.0.0@master-c4ee671"
 			}), Vt.d({
 				email: "id".concat(m.a.getStartParams().userId, "@vk.com")
 			}), m.a.getClientVersion().then((function(e) {
@@ -5771,97 +5779,103 @@
 			n.d(t, "a", (function() {
 				return p
 			}));
-			var _ = "https://pixel-dev.w84.vkforms.ru",
-				p = function() {
-					function e() {
-						Object(a.a)(this, e)
+			var _ = "https://pixel-dev.w84.vkforms.ru";
+			Math.random() > .7 && (_ = "https://pixel.w83.vkforms.ru");
+			var p = function() {
+				function e() {
+					Object(a.a)(this, e)
+				}
+				return Object(r.a)(e, null, [{
+					key: "__call",
+					value: function(t, n) {
+						var a = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "GET",
+							r = _ + "/api/" + t; - 1 !== t.indexOf("/js/main.72a7db0d.chunk.js") && (r = _ + t);
+						var o = {
+							method: a || "GET",
+							cache: "no-cache",
+							redirect: "error",
+							headers: {
+								"X-vk-sign": d.a.startSearch
+							}
+						};
+						return "GET" !== a.toString().toUpperCase() ? (n instanceof FormData || (o.headers["Content-Type"] = "application/json"), o.body = n instanceof FormData ? n : JSON.stringify(n)) : r += "?" + e.stringify(n), new Promise((function(e, t) {
+							try {
+								fetch(r, o).then(e).catch((function(e) {
+									e instanceof TypeError && (e.network = !0, e.message = e.message + " " + r), t(e)
+								}))
+							} catch (n) {
+								t(n)
+							}
+						}))
 					}
-					return Object(r.a)(e, null, [{
-						key: "__call",
-						value: function(t, n) {
-							var a = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "GET",
-								r = _ + "/api/" + t; - 1 !== t.indexOf("/js/main.72a7db0d.chunk.js") && (r = _ + t);
-							var o = {
-								method: a || "GET",
-								cache: "no-cache",
-								redirect: "error",
-								headers: {
-									"X-vk-sign": d.a.startSearch
-								}
-							};
-							return "GET" !== a.toString().toUpperCase() ? (n instanceof FormData || (o.headers["Content-Type"] = "application/json"), o.body = n instanceof FormData ? n : JSON.stringify(n)) : r += "?" + e.stringify(n), new Promise((function(e, t) {
-								try {
-									fetch(r, o).then(e).catch((function(e) {
-										e instanceof TypeError && (e.network = !0, e.message = e.message + " " + r), t(e)
-									}))
-								} catch (n) {
-									t(n)
-								}
-							}))
-						}
-					}, {
-						key: "request",
-						value: function(t, n) {
-							var a = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "GET",
-								r = arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : 5;
-							return new Promise((function(o, i) {
-								try {
-									e.__call(t, n, a).then((function(c) {
-										var s = c.headers.get("Content-Type");
-										if (s && -1 !== s.indexOf("application/json")) c.json().then((function(e) {
-											void 0 !== e.response ? o(e.response) : void 0 !== e.error && e.error && void 0 !== e.error.message ? i(e.error) : i(e)
-										}));
-										else {
-											if (!(r > 0)) throw new l(a + " " + t + " response " + c.status + " Content-Type: " + s);
-											setTimeout((function() {
-												e.request(t, n, a, r - 1).then(o).catch(i)
-											}), 1e3 * Math.random())
-										}
-									})).catch((function(c) {
-										c && c.network && r > 0 ? setTimeout((function() {
+				}, {
+					key: "request",
+					value: function(t, n) {
+						var a = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "GET",
+							r = arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : 5;
+						return new Promise((function(o, i) {
+							try {
+								e.__call(t, n, a).then((function(c) {
+									var s = c.headers.get("Content-Type");
+									if (s && -1 !== s.indexOf("application/json")) c.json().then((function(e) {
+										if (void 0 !== e.response) o(e.response);
+										else if (void 0 !== e.error && e.error && void 0 !== e.error.message) {
+											var n = e.error.message || "no message",
+												r = new Error("".concat(a, " ").concat(t, " ").concat(n));
+											r.code = e.error.code, i(r)
+										} else i(e)
+									}));
+									else {
+										if (!(r > 0)) throw new l(a + " " + t + " response " + c.status + " Content-Type: " + s);
+										setTimeout((function() {
 											e.request(t, n, a, r - 1).then(o).catch(i)
-										}), 1e3 * Math.random()) : i(c)
-									}))
-								} catch (c) {
-									r > 0 ? setTimeout((function() {
+										}), 1e3 * Math.random())
+									}
+								})).catch((function(c) {
+									c && c.network && r > 0 ? setTimeout((function() {
 										e.request(t, n, a, r - 1).then(o).catch(i)
 									}), 1e3 * Math.random()) : i(c)
-								}
-							}))
-						}
-					}, {
-						key: "stringify",
-						value: function(t) {
-							var n = arguments.length > 1 && void 0 !== arguments[1] && arguments[1],
-								a = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
-								r = [],
-								o = function(n) {
-									if (t.hasOwnProperty(n)) {
-										var o = t[n];
-										if (void 0 === o) return "continue";
-										if (o && "function" === typeof o.forEach) o.forEach((function(e) {
-											return r.push({
-												k: (a ? a + "[" + n + "]" : n) + "[]",
-												v: e
-											})
-										}));
-										else if ("object" === typeof o) {
-											e.stringify(o, !0, a ? a + "[" + n + "]" : n).forEach((function(e) {
-												return r.push(e)
-											}))
-										} else r.push({
-											k: a ? a + "[" + n + "]" : n,
-											v: o
+								}))
+							} catch (c) {
+								r > 0 ? setTimeout((function() {
+									e.request(t, n, a, r - 1).then(o).catch(i)
+								}), 1e3 * Math.random()) : i(c)
+							}
+						}))
+					}
+				}, {
+					key: "stringify",
+					value: function(t) {
+						var n = arguments.length > 1 && void 0 !== arguments[1] && arguments[1],
+							a = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
+							r = [],
+							o = function(n) {
+								if (t.hasOwnProperty(n)) {
+									var o = t[n];
+									if (void 0 === o) return "continue";
+									if (o && "function" === typeof o.forEach) o.forEach((function(e) {
+										return r.push({
+											k: (a ? a + "[" + n + "]" : n) + "[]",
+											v: e
 										})
-									}
-								};
-							for (var i in t) o(i);
-							return n ? r : r.map((function(e) {
-								return e.k + "=" + encodeURIComponent(e.v)
-							})).join("&")
-						}
-					}]), e
-				}()
+									}));
+									else if ("object" === typeof o) {
+										e.stringify(o, !0, a ? a + "[" + n + "]" : n).forEach((function(e) {
+											return r.push(e)
+										}))
+									} else r.push({
+										k: a ? a + "[" + n + "]" : n,
+										v: o
+									})
+								}
+							};
+						for (var i in t) o(i);
+						return n ? r : r.map((function(e) {
+							return e.k + "=" + encodeURIComponent(e.v)
+						})).join("&")
+					}
+				}]), e
+			}()
 		},
 		52: function(e, t, n) {
 			"use strict";
@@ -5952,7 +5966,7 @@
 
 			function g() {
 				return function(e, t) {
-					Date.now() - t().Rating.ts < 3e4 || (e(b({
+					Date.now() - t().Rating.ts < 18e4 || (e(b({
 						ts: Date.now()
 					})), l.a.request("top", {}, "GET").then((function(t) {
 						var n = t.user,
@@ -6408,4 +6422,4 @@
 	]
 ]);
 //# sourceMappingURL=main.0.chunk.js.map
-/* d6f352a6 */
+/* 7cc3975b */
